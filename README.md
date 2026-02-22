@@ -5,23 +5,16 @@
 
 ---
 
-## 📇 Contact Me
+## 🧠 About Me
 
-<p align="center">
-📱 +91 9424076383 | ✉️ yashbrahmankar95@gmail.com | 📍 Bhopal, MP, India
-</p>
-
-<p align="center">
-<a href="https://www.linkedin.com/in/yashbrahmankar-74b422397/" target="_blank">LinkedIn Profile</a>
-</p>
+- 🎓 AIML Student at OIST  
+- 🤖 Passionate about Machine Learning & AI Systems  
+- 📊 Strong interest in Data Analytics & Real-World Problem Solving  
+- 🏆 Oracle Certified  
+- 🌐 Cisco Certified  
+- 🚀 Building projects that combine AI + Practical Impact 
 
 ---
-
-## 👨‍🎓 About Me
-
-Currently pursuing **Bachelor of Technology** at **Oriental Institute of Science and Technology (2024–2028)**.  
-Aspiring **AI & Machine Learning Developer** with hands-on experience in Python, model building, and data preparation.  
-Focused on creating intelligent systems, solving problems with code, and turning ideas into working projects.  
 
 Skills include **programming, data handling, problem-solving**, and **real-world AI/ML development**.
 
