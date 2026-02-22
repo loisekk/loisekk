@@ -1,57 +1,79 @@
 <!-- PREMIUM HEADER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,50:243B55,100:0F2027&height=230&section=header&text=Yash%20Brahmankar&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,50:243B55,100:0F2027&height=230&section=header&text=Yash%20Brahmankar&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%26%20ML%20Engineer%20%7C%20LLM%20Enthusiast&descAlignY=60&descSize=18" />
 </p>
 
 ---
 
 ## 🧠 About Me
 
-- 🎓 AIML Student at OIST  
-- 🤖 Passionate about Machine Learning & AI Systems  
+- 🎓 AIML Student at OIST (2024–2028)  
+- 🤖 Passionate about Machine Learning, Deep Learning & LLM Systems  
 - 📊 Strong interest in Data Analytics & Real-World Problem Solving  
+- 🧠 Exploring AI Agents & Prompt Engineering  
 - 🏆 Oracle Certified  
 - 🌐 Cisco Certified  
-- 🚀 Building projects that combine AI + Practical Impact 
+- 🚀 Building AI systems that create practical impact  
 
----
-
-Skills include **programming, data handling, problem-solving**, and **real-world AI/ML development**.
+Skills include **programming, model training, data handling, problem-solving**, and **LLM-based application development**.
 
 ---
 
 ## 🛠 Tech Stack & Expertise
 
+### 👨‍💻 Programming
 <p align="center">
-<img src="https://skillicons.dev/icons?i=react,js,python,java,nodejs,tailwind,figma,git,github,vscode,mysql,c&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,c,mysql,git,github,vscode&theme=dark" />
 </p>
+
+---
+
+### 🤖 Machine Learning & Deep Learning
+<p align="center">
+<img src="https://skillicons.dev/icons?i=sklearn,tensorflow&theme=dark" />
+</p>
+
+<p align="center">
+<img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
+<img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge"/>
+</p>
+
+---
+
+### 🧠 LLM & AI Engineering
+<p align="center">
+<img src="https://img.shields.io/badge/LangChain-00A67E?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Large%20Language%20Models-8A2BE2?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Prompt%20Engineering-FF6F00?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/AI%20Agents-0A66C2?style=for-the-badge"/>
+</p>
+
+---
 
 ### Core Skills
 - Python Programming & Data Structures  
 - Machine Learning Algorithms & Model Training  
-- Data Processing & Preparation  
+- Deep Learning Fundamentals (TensorFlow)  
+- Data Processing & Feature Engineering  
+- LLM-Based Application Development  
 - Git & GitHub Version Control  
-- Problem Solving & Coding  
-
-### Areas of Expertise
-- AI & Machine Learning Development  
-- Python Development & Model Building  
-- Data Handling & Project-Based Learning  
+- Problem Solving & DSA  
 
 ---
 
 ## 🎓 Education
 
-**Bachelor of Technology (B.Tech)**  
-Oriental Institute of Science and Technology, Bhopal, MP (2024–2028)  
+**Bachelor of Technology (B.Tech) – Artificial Intelligence & Machine Learning**  
+Oriental Institute of Science and Technology, Bhopal, MP (2024–2028)
 
-Relevant Coursework & Practice:  
+Relevant Coursework:
 - Python Programming  
 - Data Structures & Algorithms  
 - Machine Learning Fundamentals  
+- Deep Learning Basics  
 - Model Training & Evaluation  
 - Data Processing & Preparation  
-- Problem Solving & Coding  
 
 ---
 
@@ -80,8 +102,7 @@ Relevant Coursework & Practice:
 
 ---
 
-
-# 🐍 Contribution Snake Animation
+## 🐍 Contribution Snake Animation
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
@@ -90,7 +111,7 @@ Relevant Coursework & Practice:
 ---
 
 <p align="center">
-  <strong>⚡ Building Intelligent Systems Today — For a Smarter Tomorrow ⚡</strong>
+  <strong>⚡ Building Intelligent AI Systems Today — For a Smarter Tomorrow ⚡</strong>
 </p>
 
 <p align="center">
