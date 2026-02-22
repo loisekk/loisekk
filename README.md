@@ -87,10 +87,11 @@ Relevant Coursework & Practice:
 
 ---
 
-## 🐍 GitHub Snake
+
+# 🐍 Contribution Snake Animation
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/master/snk.svg?user=loisekk" />
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
 </p>
 
 ---
