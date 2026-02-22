@@ -1,8 +1,5 @@
 <!-- PREMIUM HEADER -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,50:243B55,100:0F2027&height=230&section=header&text=Yash%20Brahmankar&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%26%20ML%20Engineer%20%7C%20LLM%20Enthusiast&descAlignY=60&descSize=18" />
-</p>
-
+<p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,50:243B55,100:0F2027&height=230&section=header&text=Yash%20Brahmankar&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38" /> </p>
 ---
 
 ## 🧠 About Me
@@ -62,20 +59,7 @@ Skills include **programming, model training, data handling, problem-solving**, 
 
 ---
 
-## 🎓 Education
 
-**Bachelor of Technology (B.Tech) – Artificial Intelligence & Machine Learning**  
-Oriental Institute of Science and Technology, Bhopal, MP (2024–2028)
-
-Relevant Coursework:
-- Python Programming  
-- Data Structures & Algorithms  
-- Machine Learning Fundamentals  
-- Deep Learning Basics  
-- Model Training & Evaluation  
-- Data Processing & Preparation  
-
----
 
 ## 📊 GitHub Analytics
 
