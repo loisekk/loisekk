@@ -38,7 +38,6 @@ Skills include **programming, model training, data handling, problem-solving**, 
 </p>
 
 ---
-
 ### 🤖 Machine Learning & Deep Learning
 <p align="center">
 <img src="https://skillicons.dev/icons?i=sklearn,tensorflow&theme=dark" />
@@ -61,19 +60,6 @@ Skills include **programming, model training, data handling, problem-solving**, 
 </p>
 
 ---
-
-### Core Skills
-- Python Programming & Data Structures  
-- Machine Learning Algorithms & Model Training  
-- Deep Learning Fundamentals (TensorFlow)  
-- Data Processing & Feature Engineering  
-- LLM-Based Application Development  
-- Git & GitHub Version Control  
-- Problem Solving & DSA  
-
----
-
-
 
 ## 📊 GitHub Analytics
 
