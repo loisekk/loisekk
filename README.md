@@ -79,10 +79,7 @@ Skills include **programming, model training, data handling, problem-solving**, 
 ---
 
 ## 📈 Contribution Graph
-
-<p align="center">
-  <img src="https://github-contribution-stats.vercel.app/api/?username=loisekk" />
-</p>
+<p align="center"> <img src="https://github-contribution-stats.vercel.app/api/?username=loisekk" /> </p>
 
 ---
 
