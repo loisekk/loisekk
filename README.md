@@ -1,17 +1,14 @@
 <!-- PREMIUM HEADER -->
 <p align="center"> <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,50:243B55,100:0F2027&height=230&section=header&text=Yash%20Brahmankar&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38" /> </p>
----
-<h2 align="center">Artificial Intelligence & Machine Learning Engineer</h2>
+---<h2 align="center">Artificial Intelligence & Machine Learning Engineer</h2>
 
 <h4 align="center">
 AIML @ OIST | Data Science & Analytics | Oracle & Cisco Certified  
 Python • SQL • C • AI Systems Builder
 </h4>
-
 <p align="center">
   <img src="https://readme-typing-svg.herokuapp.com?lines=AI+%26+Machine+Learning+Engineer;Data+Science+Enthusiast;Model+Builder+%26+Problem+Solver;Turning+Data+Into+Impact;Future+AI+Innovator+🚀&center=true&width=700&height=50">
 </p>
-
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=loisekk&label=Profile%20Views&color=blueviolet&style=flat" />
 </p>
