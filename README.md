@@ -5,13 +5,60 @@
 
 ---
 
-## 🛠 Tech Stack
+## 📇 Contact Me
 
 <p align="center">
-
-<img src="https://skillicons.dev/icons?i=react,js,python,java,nodejs,tailwind,figma,git,github,vscode,mysql,c&theme=dark" />
-
+📱 +91 9424076383 | ✉️ yashbrahmankar95@gmail.com | 📍 Bhopal, MP, India
 </p>
+
+<p align="center">
+<a href="https://www.linkedin.com/in/yashbrahmankar-74b422397/" target="_blank">LinkedIn Profile</a>
+</p>
+
+---
+
+## 👨‍🎓 About Me
+
+Currently pursuing **Bachelor of Technology** at **Oriental Institute of Science and Technology (2024–2028)**.  
+Aspiring **AI & Machine Learning Developer** with hands-on experience in Python, model building, and data preparation.  
+Focused on creating intelligent systems, solving problems with code, and turning ideas into working projects.  
+
+Skills include **programming, data handling, problem-solving**, and **real-world AI/ML development**.
+
+---
+
+## 🛠 Tech Stack & Expertise
+
+<p align="center">
+<img src="https://skillicons.dev/icons?i=react,js,python,java,nodejs,tailwind,figma,git,github,vscode,mysql,c&theme=dark" />
+</p>
+
+### Core Skills
+- Python Programming & Data Structures  
+- Machine Learning Algorithms & Model Training  
+- Data Processing & Preparation  
+- Git & GitHub Version Control  
+- Problem Solving & Coding  
+
+### Areas of Expertise
+- AI & Machine Learning Development  
+- Python Development & Model Building  
+- Data Handling & Project-Based Learning  
+
+---
+
+## 🎓 Education
+
+**Bachelor of Technology (B.Tech)**  
+Oriental Institute of Science and Technology, Bhopal, MP (2024–2028)  
+
+Relevant Coursework & Practice:  
+- Python Programming  
+- Data Structures & Algorithms  
+- Machine Learning Fundamentals  
+- Model Training & Evaluation  
+- Data Processing & Preparation  
+- Problem Solving & Coding  
 
 ---
 
@@ -32,10 +79,18 @@
 
 ---
 
-## 📈 Yash Brahmankar Contribution Graph
+## 📈 Contribution Graph
 
 <p align="center">
   <img src="https://github-contribution-stats.vercel.app/api/?username=loisekk" />
+</p>
+
+---
+
+## 🐍 GitHub Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/master/snk.svg?user=loisekk" />
 </p>
 
 ---
