@@ -1,12 +1,17 @@
-<!-- Animated Wave Header -->
+<!-- PREMIUM HEADER -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=200&section=header&text=Yash%20Brahmankar&fontSize=40&fontColor=ffffff&animation=fadeIn" />
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:141E30,50:243B55,100:0F2027&height=230&section=header&text=Yash%20Brahmankar&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
 </p>
 
-<h2 align="center">AI/ML Engineer | Data Science & Analytics | Oracle & Cisco Certified | AIML @ OIST</h2>
+<h2 align="center">Artificial Intelligence & Machine Learning Engineer</h2>
+
+<h4 align="center">
+AIML @ OIST | Data Science & Analytics | Oracle & Cisco Certified  
+Python • SQL • C • AI Systems Builder
+</h4>
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?lines=Aspiring+Machine+Learning+Engineer;Artificial+Intelligence+Student;Python+•+SQL+•+C;Building+Intelligent+Systems;Turning+Data+Into+Insights+🚀&center=true&width=650&height=50">
+  <img src="https://readme-typing-svg.herokuapp.com?lines=AI+%26+Machine+Learning+Engineer;Data+Science+Enthusiast;Model+Builder+%26+Problem+Solver;Turning+Data+Into+Impact;Future+AI+Innovator+🚀&center=true&width=700&height=50">
 </p>
 
 <p align="center">
@@ -15,49 +20,55 @@
 
 ---
 
-# 🧠 About Me
+# 🧠 Professional Summary
 
-🎓 Bachelor of Technology (2024–2028)  
-📍 Oriental Institute of Science and Technology, Bhopal  
-🤖 Specialization: Artificial Intelligence & Machine Learning  
+I am a Bachelor of Technology student specializing in Artificial Intelligence and Machine Learning at Oriental Institute of Science and Technology (2024–2028).
 
-I am an aspiring AI & Machine Learning Engineer focused on building intelligent systems using Python, data processing, and real-world problem solving. I enjoy turning concepts into working models and continuously improving through project-based learning.
+My focus lies in building intelligent systems using structured data processing, machine learning algorithms, and strong programming fundamentals. I actively develop projects that transform theoretical AI concepts into working solutions.
+
+I believe in practical learning, clean coding, and solving real-world problems using technology.
 
 ---
 
 # 🎓 Education
 
-**Bachelor of Technology – Artificial Intelligence & Machine Learning**  
-Oriental Institute of Science and Technology  
-Bhopal, Madhya Pradesh  
-2024 – 2028
+**Bachelor of Technology (B.Tech)**  
+Artificial Intelligence & Machine Learning  
+Oriental Institute of Science and Technology, Bhopal  
+2024 – 2028  
+
+Core Academic Focus:
+- Data Structures & Algorithms
+- Machine Learning Fundamentals
+- Programming Concepts
+- Data Handling & Model Evaluation
 
 ---
 
-# 🛠 Technical Skills
+# 🛠 Technical Expertise
 
-### 💻 Programming
-- Python
+## 💻 Programming Languages
+- Python (Primary Language)
 - SQL
 - C
 - Data Structures & Algorithms
 
-### 🤖 AI / Machine Learning
-- Machine Learning Algorithms
-- Model Training & Evaluation
-- Data Processing & Preparation
-- Feature Engineering Basics
-- Supervised Learning Concepts
+## 🤖 Artificial Intelligence & Machine Learning
+- Supervised Learning
+- Model Training & Testing
+- Data Cleaning & Preparation
+- Feature Engineering (Basic)
+- Performance Evaluation Metrics
 
-### 📊 Tools & Technologies
-- Git & GitHub (Version Control)
+## 📊 Data & Tools
 - MySQL
+- Git & GitHub (Version Control)
 - Jupyter Notebook
-- Figma (Basic UI Design)
+- Figma (Basic UI Understanding)
 
 ---
 
-# 📊 GitHub Analytics
+# 📈 GitHub Performance Dashboard
 
 <p align="center">
   <img height="170" src="https://github-readme-stats.vercel.app/api?username=loisekk&show_icons=true&theme=tokyonight&hide_border=true" />
@@ -70,11 +81,11 @@ Bhopal, Madhya Pradesh
 
 ---
 
-# 🏆 Achievements & Certifications
+# 🏆 Certifications & Recognition
 
 - Oracle Certified  
 - Cisco Certified  
-- AIML Undergraduate (OIST)
+- AIML Undergraduate – OIST  
 
 <p align="center">
   <img src="https://github-profile-trophy.vercel.app/?username=loisekk&theme=algolia&no-frame=true&no-bg=true" />
@@ -82,7 +93,7 @@ Bhopal, Madhya Pradesh
 
 ---
 
-# 🐍 Contribution Snake Animation
+# 🐍 Contribution Activity
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
@@ -90,10 +101,30 @@ Bhopal, Madhya Pradesh
 
 ---
 
-# 🌍 Contact & Location
+# 🚀 Current Development Focus (2026 Roadmap)
 
-📍 Bhopal, Madhya Pradesh, India – 462001  
-📞 +91 9424076383  
+- Building end-to-end ML mini projects
+- Strengthening DSA for technical interviews
+- Improving model optimization techniques
+- Learning applied AI for analytics & automation
+- Exploring deployment of ML models
+
+---
+
+# 💡 Engineering Philosophy
+
+✔ Write clean, readable, and efficient code  
+✔ Understand fundamentals before frameworks  
+✔ Build projects, not just complete courses  
+✔ Focus on long-term skill growth  
+✔ Combine AI knowledge with practical application  
+
+---
+
+# 🌍 Location & Contact
+
+📍 Bhopal, Madhya Pradesh, India  
+🎓 AIML @ OIST  
 📧 yashbrahmankar95@gmail.com  
 
 <p align="center">
@@ -104,20 +135,10 @@ Bhopal, Madhya Pradesh
 
 ---
 
-# 🚀 Current Focus
-
-- Building AI-based mini projects  
-- Strengthening Data Structures & Algorithms  
-- Practicing Model Optimization  
-- Learning applied AI for real-world analytics  
-
----
-
 <p align="center">
-✨ “Build Smart. Stay Curious. Keep Improving.” ✨
+⚡ Building Intelligent Systems Today for a Smarter Tomorrow ⚡
 </p>
 
-<!-- Footer Wave -->
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:2c5364,50:203a43,100:0f2027&height=120&section=footer"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F2027,50:243B55,100:141E30&height=120&section=footer"/>
 </p>
