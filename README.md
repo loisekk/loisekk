@@ -86,6 +86,18 @@ Skills include **programming, model training, data handling, problem-solving**, 
 </p>
 
 ---
+# 🌍 Location & Contact
+
+📍 Bhopal, Madhya Pradesh, India  
+🎓 AIML @ OIST  
+📧 yashbrahmankar95@gmail.com  
+
+<p align="center">
+<a href="https://www.linkedin.com/in/yashbrahmankar-74b422397/">
+  <img src="https://img.shields.io/badge/LinkedIn-Yash%20Brahmankar-blue?style=for-the-badge&logo=linkedin" />
+</a>
+</p>
+
 
 <p align="center">
   <strong>⚡ Building Intelligent AI Systems Today — For a Smarter Tomorrow ⚡</strong>
