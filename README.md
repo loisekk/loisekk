@@ -67,18 +67,22 @@ Skills include **programming, model training, data handling, problem-solving**, 
   <img src="https://streak-stats.demolab.com/?user=loisekk&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" />
 </p>
 
+## 📈 Contribution Activity
 <p align="center">
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=loisekk&theme=tokyo-night&hide_border=true&area=true" />
 </p>
 
 ---
 
-## 📈 Contribution Activity
+## 🧠 AI Development Journey
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loisekk&theme=tokyo-night&hide_border=true&area=true" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loisekk&bg_color=0d1117&color=58a6ff&line=7c3aed&point=ffffff&area=true&hide_border=true&custom_title=Yash%20Brahmankar's%20Engineering%20Momentum" />
 </p>
 
+<p align="center">
+  <em>Consistency • Growth • Real-World Project Building</em>
+</p>
 ---
 
 ## 🐍 Contribution Snake Animation
