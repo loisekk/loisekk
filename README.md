@@ -67,21 +67,23 @@ Skills include **programming, model training, data handling, problem-solving**, 
   <img src="https://streak-stats.demolab.com/?user=loisekk&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" />
 </p>
 
-## 📈 Contribution Activity
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loisekk&theme=tokyo-night&hide_border=true&area=true" />
-</p>
-
 ---
 
-## 🧠 AI Development Journey
+## 🧠 AI Development Journey & 📈 Contribution Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loisekk&bg_color=0d1117&color=58a6ff&line=7c3aed&point=ffffff&area=true&hide_border=true&custom_title=Yash%20Brahmankar's%20Engineering%20Momentum" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loisekk&bg_color=0d1117&color=58a6ff&line=7c3aed&point=ffffff&area=true&hide_border=true&custom_title=Yash%20Brahmankar's%20Engineering%20Momentum&Discipline%20%7C%20Continuous%20Improvement%20%7C%20Code%20Velocity" />
 </p>
 
 <p align="center">
   <em>Consistency • Growth • Real-World Project Building</em>
+</p>
+
+<p align="center">
+  Demonstrating sustained engineering effort, structured learning, and real-world AI system development.
+</p>
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:141E30,100:243B55&height=2&section=header"/>
 </p>
 ---
 
