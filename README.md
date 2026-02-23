@@ -72,7 +72,7 @@ Skills include **programming, model training, data handling, problem-solving**, 
 ## 🧠 AI Development Journey & 📈 Contribution Activity
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loisekk&bg_color=0d1117&color=58a6ff&line=7c3aed&point=ffffff&area=true&hide_border=true&custom_title=Yash%20Brahmankar's%20Engineering%20Momentum%20ANDDiscipline%20%7C%20Continuous%20Improvement%20%7C%20Code%20Velocity" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loisekk&bg_color=0d1117&color=58a6ff&line=7c3aed&point=ffffff&area=true&hide_border=true&custom_title=Yash%20Brahmankar's%20Engineering%20Momentum%20'&'Discipline%20%7C%20Continuous%20Improvement%20%7C%20Code%20Velocity" />
 </p>
 
 <p align="center">
