@@ -1,7 +1,7 @@
 """
 generate_pixel_name.py
-Generates a GitHub contribution-style pixel name SVG spelling "YASH  B."
-Commit output to: output/pixel-name.svg
+Generates an animated GitHub contribution-style pixel name SVG spelling "YASH  B."
+Each green block pulses with a glow animation — staggered per column for wave effect.
 """
 
 PIXEL_FONT = {
@@ -72,17 +72,13 @@ PIXEL_FONT = {
 
 TEXT = "YASH  B."
 
-CELL   = 18   # px size of each square
-GAP    = 4    # px gap between squares
-RADIUS = 3    # corner radius
+CELL   = 18
+GAP    = 4
+RADIUS = 3
+ROWS   = 7
 
-# GitHub contribution green palette
-COLORS = {
-    0: "#161b22",   # dark background (empty cell)
-    1: "#39d353",   # bright green (filled cell)
-}
-
-ROWS = 7
+COLOR_ON  = "#39d353"
+COLOR_OFF = "#161b22"
 
 
 def build_svg(text):
@@ -91,32 +87,54 @@ def build_svg(text):
         glyph = PIXEL_FONT.get(ch, PIXEL_FONT[" "])
         columns.append(glyph)
 
-    # Calculate total width
-    total_cols = sum(len(col[0]) for col in columns) + (len(columns) - 1)  # 1 gap col between letters
+    total_cols = sum(len(col[0]) for col in columns) + (len(columns) - 1)
     width  = total_cols * (CELL + GAP) + GAP
-    height = ROWS * (CELL + GAP) + GAP + 20  # +20 for padding
+    height = ROWS * (CELL + GAP) + GAP + 20
 
+    # Build animation keyframes — one per column index for wave effect
+    animations = []
+    col_index = 0
     rects = []
     x_offset = GAP
 
     for li, glyph in enumerate(columns):
         cols_in_letter = len(glyph[0])
-        for row in range(ROWS):
-            for col in range(cols_in_letter):
+        for col in range(cols_in_letter):
+            delay = round((col_index * 0.08) % 2.0, 2)  # stagger delay per column
+            anim_id = f"glow{col_index}"
+            animations.append(f"""
+    @keyframes {anim_id} {{
+      0%   {{ filter: brightness(1);   opacity: 1; }}
+      50%  {{ filter: brightness(1.9) drop-shadow(0 0 6px #39d353); opacity: 0.85; }}
+      100% {{ filter: brightness(1);   opacity: 1; }}
+    }}""")
+
+            for row in range(ROWS):
                 val = glyph[row][col]
                 x = x_offset + col * (CELL + GAP)
                 y = GAP + row * (CELL + GAP)
-                color = COLORS[val]
-                opacity = "1" if val else "0.15"
-                rects.append(
-                    f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" '
-                    f'rx="{RADIUS}" ry="{RADIUS}" fill="{color}" opacity="{opacity}"/>'
-                )
-        x_offset += cols_in_letter * (CELL + GAP) + (CELL + GAP)  # letter gap
+                if val:
+                    rects.append(
+                        f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" '
+                        f'rx="{RADIUS}" ry="{RADIUS}" fill="{COLOR_ON}" '
+                        f'style="animation: {anim_id} 2s ease-in-out {delay}s infinite;"/>'
+                    )
+                else:
+                    rects.append(
+                        f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" '
+                        f'rx="{RADIUS}" ry="{RADIUS}" fill="{COLOR_OFF}" opacity="0.15"/>'
+                    )
+            col_index += 1
 
+        x_offset += cols_in_letter * (CELL + GAP) + (CELL + GAP)
+
+    animations_str = "\n".join(animations)
     rects_str = "\n  ".join(rects)
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
+  <style>
+    {animations_str}
+  </style>
   <rect width="{width}" height="{height}" rx="10" ry="10" fill="#0d1117"/>
   {rects_str}
 </svg>'''
@@ -129,4 +147,4 @@ if __name__ == "__main__":
     svg_content = build_svg(TEXT)
     with open("output/pixel-name.svg", "w") as f:
         f.write(svg_content)
-    print("✅ pixel-name.svg generated in output/")
+    print("✅ Animated pixel-name.svg generated in output/")
