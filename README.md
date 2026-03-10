@@ -50,15 +50,12 @@ class YashBrahmankar:
 <!--                     TECH STACK                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-## 🛠 Language and Tools
+## 🛠 Language and Tools & 🛠️ Tech Stack & Expertise
 
 <p align="center">
   <img src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" width="200" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></img>
 </p>
 
----
-
-## 🛠️ Tech Stack & Expertise
 
 ### 👨‍💻 Programming & Core Tools
 <p align="center">
@@ -122,19 +119,6 @@ class YashBrahmankar:
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=loisekk&bg_color=0d1117&color=a78bfa&line=7c3aed&point=ffffff&area=true&hide_border=true&custom_title=Yash%20Brahmankar%20-%20Consistency%20%7C%20Continuous%20Improvement%20%7C%20Code%20Velocity" />
 </p>
 
----
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--               CONTRIBUTION SNAKE                          -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
-</p>
-
----
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--               PIXEL NAME ART                              -->
@@ -198,7 +182,16 @@ class YashBrahmankar:
 | 🐳 Docker & Deployment | 🔲 Upcoming |
 
 ---
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--               CONTRIBUTION SNAKE                          -->
+<!-- ═══════════════════════════════════════════════════════════ -->
 
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
+</p>
+---
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                      CONTACT                              -->
 <!-- ═══════════════════════════════════════════════════════════ -->
