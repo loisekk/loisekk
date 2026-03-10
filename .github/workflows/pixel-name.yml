@@ -1,1 +1,38 @@
 
+name: Generate Pixel Name Art
+
+on:
+  schedule:
+    - cron: "0 1 * * *"
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    name: Generate YASH B. Pixel Name SVG
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: "3.11"
+
+      - name: Run Pixel Name Generator
+        run: python generate_pixel_name.py
+
+      - name: Commit & Push SVG to output branch
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add output/pixel-name.svg
+          git diff --staged --quiet || git commit -m "🟩 Update Pixel Name Art"
+          git push origin HEAD:output --force
