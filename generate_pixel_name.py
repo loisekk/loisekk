@@ -1,8 +1,15 @@
 """
 generate_pixel_name.py
-Generates an animated GitHub contribution-style pixel name SVG spelling "YASH  B."
-Each green block pulses with a glow animation — staggered per column for wave effect.
+Generates a gitartwork-style SVG spelling "YASH B."
+- Contribution graph green shades (4 levels like GitHub)
+- Each block fades in with a left-to-right wave
+- Clean, minimal, exactly like jasmeri/gitartwork style
 """
+
+import random
+import os
+
+random.seed(99)
 
 PIXEL_FONT = {
     "Y": [
@@ -70,15 +77,17 @@ PIXEL_FONT = {
     ],
 }
 
-TEXT = "YASH  B."
-
-CELL   = 18
+TEXT   = "YASH  B."
+CELL   = 22
 GAP    = 4
 RADIUS = 3
 ROWS   = 7
 
-COLOR_ON  = "#39d353"
-COLOR_OFF = "#161b22"
+# GitHub contribution graph green palette (4 levels)
+GREENS = ["#0e4429", "#006d32", "#26a641", "#39d353"]
+
+# Empty cell color
+EMPTY  = "#161b22"
 
 
 def build_svg(text):
@@ -89,62 +98,68 @@ def build_svg(text):
 
     total_cols = sum(len(col[0]) for col in columns) + (len(columns) - 1)
     width  = total_cols * (CELL + GAP) + GAP
-    height = ROWS * (CELL + GAP) + GAP + 20
+    height = ROWS * (CELL + GAP) + GAP + 10
 
-    # Build animation keyframes — one per column index for wave effect
-    animations = []
-    col_index = 0
-    rects = []
-    x_offset = GAP
+    styles = []
+    rects  = []
+
+    x_offset  = GAP
+    col_index = 0  # global column counter for wave delay
 
     for li, glyph in enumerate(columns):
         cols_in_letter = len(glyph[0])
+
         for col in range(cols_in_letter):
-            delay = round((col_index * 0.08) % 2.0, 2)  # stagger delay per column
-            anim_id = f"glow{col_index}"
-            animations.append(f"""
-    @keyframes {anim_id} {{
-      0%   {{ filter: brightness(1);   opacity: 1; }}
-      50%  {{ filter: brightness(1.9) drop-shadow(0 0 6px #39d353); opacity: 0.85; }}
-      100% {{ filter: brightness(1);   opacity: 1; }}
-    }}""")
+            # Stagger delay left → right (wave effect)
+            delay = round(col_index * 0.07, 2)
+
+            anim_name = f"fadein{col_index}"
+            styles.append(f"""
+  @keyframes {anim_name} {{
+    0%   {{ opacity: 0; transform: scale(0.4); }}
+    60%  {{ opacity: 1; transform: scale(1.1); }}
+    80%  {{ transform: scale(0.95); }}
+    100% {{ opacity: 1; transform: scale(1.0); }}
+  }}""")
 
             for row in range(ROWS):
                 val = glyph[row][col]
                 x = x_offset + col * (CELL + GAP)
                 y = GAP + row * (CELL + GAP)
+
                 if val:
+                    # Pick a random green shade per block (like real gitartwork)
+                    color = random.choice(GREENS)
                     rects.append(
                         f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" '
-                        f'rx="{RADIUS}" ry="{RADIUS}" fill="{COLOR_ON}" '
-                        f'style="animation: {anim_id} 2s ease-in-out {delay}s infinite;"/>'
+                        f'rx="{RADIUS}" ry="{RADIUS}" fill="{color}" '
+                        f'style="opacity:0; animation: {anim_name} 0.6s ease-out {delay}s forwards;"/>'
                     )
                 else:
                     rects.append(
                         f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" '
-                        f'rx="{RADIUS}" ry="{RADIUS}" fill="{COLOR_OFF}" opacity="0.15"/>'
+                        f'rx="{RADIUS}" ry="{RADIUS}" fill="{EMPTY}" opacity="0.5"/>'
                     )
+
             col_index += 1
 
         x_offset += cols_in_letter * (CELL + GAP) + (CELL + GAP)
 
-    animations_str = "\n".join(animations)
-    rects_str = "\n  ".join(rects)
+    styles_str = "\n".join(styles)
+    rects_str  = "\n  ".join(rects)
 
-    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
+    return f'''<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
   <style>
-    {animations_str}
+  {styles_str}
   </style>
-  <rect width="{width}" height="{height}" rx="10" ry="10" fill="#0d1117"/>
+  <rect width="{width}" height="{height}" rx="12" ry="12" fill="#0d1117"/>
   {rects_str}
 </svg>'''
-    return svg
 
 
 if __name__ == "__main__":
-    import os
     os.makedirs("output", exist_ok=True)
-    svg_content = build_svg(TEXT)
+    svg = build_svg(TEXT)
     with open("output/pixel-name.svg", "w") as f:
-        f.write(svg_content)
-    print("✅ Animated pixel-name.svg generated in output/")
+        f.write(svg)
+    print("✅ Gitartwork-style pixel-name.svg generated in output/")
