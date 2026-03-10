@@ -2,7 +2,7 @@
 <!--                     PREMIUM HEADER                        -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,30:141E30,70:243B55,100:7c3aed&height=260&section=header&text=YASH%20BRAHMANKAR&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20%26%20Machine%20Learning%20Engineer&descAlignY=58&descAlign=50&descSize=22&descColor=a78bfa" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,30:141E30,70:243B55,100:7c3aed&height=260&section=header&text=YASH%20BRAHMANKAR&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20and%20Machine%20Learning%20Engineer&descAlignY=58&descAlign=50&descSize=22&descColor=a78bfa" width="100%"/>
 
 <br/>
 
@@ -22,12 +22,7 @@
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--                      ABOUT ME                             -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
 ## 👨‍💻 About Me
-
 ```python
 class YashBrahmankar:
     def __init__(self):
@@ -45,10 +40,6 @@ class YashBrahmankar:
 ```
 
 ---
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--                     TECH STACK                            -->
-<!-- ═══════════════════════════════════════════════════════════ -->
 
 ## 🛠️ Tech Stack & Expertise
 
@@ -80,10 +71,6 @@ class YashBrahmankar:
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--                   GITHUB ANALYTICS                        -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
 ## 📊 GitHub Analytics
 
 <p align="center">
@@ -97,10 +84,6 @@ class YashBrahmankar:
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--               CONTRIBUTION ACTIVITY                       -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
 ## 📈 Engineering Momentum
 
 <p align="center">
@@ -108,10 +91,6 @@ class YashBrahmankar:
 </p>
 
 ---
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--               CONTRIBUTION SNAKE                          -->
-<!-- ═══════════════════════════════════════════════════════════ -->
 
 ## 🐍 Contribution Snake
 
@@ -121,10 +100,6 @@ class YashBrahmankar:
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--               PIXEL NAME ART                              -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
 ## 🏆 GitHub Trophies
 
 <p align="center">
@@ -132,10 +107,6 @@ class YashBrahmankar:
 </p>
 
 ---
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--            3D CONSTELLATION CONTRIBUTION GRAPH            -->
-<!-- ═══════════════════════════════════════════════════════════ -->
 
 ## 🌌 3D Contribution Graph
 
@@ -149,10 +120,6 @@ class YashBrahmankar:
 
 ---
 
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--               PIXEL NAME ART (GREEN BLOCKS)               -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
 ## 🟩 Pixel Name Art
 
 <p align="center">
@@ -164,10 +131,6 @@ class YashBrahmankar:
 </p>
 
 ---
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--                     ROADMAP                               -->
-<!-- ═══════════════════════════════════════════════════════════ -->
 
 ## 🗺️ Learning Roadmap
 
@@ -183,10 +146,6 @@ class YashBrahmankar:
 | 🐳 Docker & Deployment | 🔲 Upcoming |
 
 ---
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--                      CONTACT                              -->
-<!-- ═══════════════════════════════════════════════════════════ -->
 
 ## 🌍 Let's Connect
 
@@ -208,9 +167,5 @@ class YashBrahmankar:
 </div>
 
 ---
-
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--                    FOOTER                                 -->
-<!-- ═══════════════════════════════════════════════════════════ -->
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,50:243B55,100:0f0f0f&height=140&section=footer" width="100%"/>
