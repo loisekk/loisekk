@@ -50,12 +50,15 @@ class YashBrahmankar:
 <!--                     TECH STACK                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-## 🛠 Language and Tools & 🛠️ Tech Stack & Expertise
+## 🛠 Language and Tools
 
 <p align="center">
   <img src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" width="200" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></img>
 </p>
 
+---
+
+## 🛠️ Tech Stack & Expertise
 
 ### 👨‍💻 Programming & Core Tools
 <p align="center">
@@ -86,7 +89,7 @@ class YashBrahmankar:
 ---
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!--                   GITHUB ANALYTICS                        -->
+<!--                   GITHUB STATS                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 ## 📊 GitHub Stats
@@ -96,15 +99,33 @@ class YashBrahmankar:
 </p>
 
 <p align="center">
-  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=loisekk&theme=github_dark"/>
-</p>
-
-<p align="center">
   <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=loisekk&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
 
 <p align="center">
   <img src="https://streak-stats.demolab.com/?user=loisekk&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" />
+</p>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--               PROFILE SUMMARY CARDS                       -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+
+## 📋 Profile Summary
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=loisekk&theme=github_dark"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=loisekk&theme=github_dark"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/most-commit-language?username=loisekk&theme=github_dark"/>
+</p>
+
+<p align="center">
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=loisekk&theme=github_dark"/>
+  <img src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=loisekk&theme=github_dark&utcOffset=5.5"/>
 </p>
 
 ---
@@ -119,15 +140,28 @@ class YashBrahmankar:
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=loisekk&bg_color=0d1117&color=a78bfa&line=7c3aed&point=ffffff&area=true&hide_border=true&custom_title=Yash%20Brahmankar%20-%20Consistency%20%7C%20Continuous%20Improvement%20%7C%20Code%20Velocity" />
 </p>
 
+---
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!--               PIXEL NAME ART                              -->
+<!--               CONTRIBUTION SNAKE                          -->
+<!-- ═══════════════════════════════════════════════════════════ -->
+
+## 🐍 Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
+</p>
+
+---
+
+<!-- ═══════════════════════════════════════════════════════════ -->
+<!--                  GITHUB TROPHIES                          -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 ## 🏆 GitHub Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=loisekk&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&row=1" />
+  <img src="https://github-profile-trophy.vercel.app/?username=loisekk&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=7" />
 </p>
 
 ---
@@ -155,7 +189,7 @@ class YashBrahmankar:
 ## 🟩 Pixel Name Art
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/loisekk/loisekk/output/pixel-name.svg" alt="YASH B. — Pixel Name Art" width="100%"/>
+  <img src="https://raw.githubusercontent.com/loisekk/loisekk/refs/heads/output/pixel-name.svg" alt="YASH B. — Pixel Name Art" width="100%"/>
 </p>
 
 <p align="center">
@@ -182,16 +216,7 @@ class YashBrahmankar:
 | 🐳 Docker & Deployment | 🔲 Upcoming |
 
 ---
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--               CONTRIBUTION SNAKE                          -->
-<!-- ═══════════════════════════════════════════════════════════ -->
 
-## 🐍 Contribution Snake
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
-</p>
----
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                      CONTACT                              -->
 <!-- ═══════════════════════════════════════════════════════════ -->
