@@ -187,9 +187,8 @@ class YashBrahmankar:
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 ## 🟩 Pixel Name Art
-
 <p align="center">
-  <img src="[https://raw.githubusercontent.com/loisekk/loisekk/refs/heads/output/pixel-name.svg](https://raw.githubusercontent.com/loisekk/loisekk/output/output/pixel-name.svg)" alt="YASH B. — Pixel Name Art" width="100%"/>
+  <img src="https://raw.githubusercontent.com/loisekk/loisekk/output/output/pixel-name.svg" alt="YASH B. — Pixel Name Art" width="100%"/>
 </p>
 
 <p align="center">
