@@ -28,21 +28,34 @@
 
 ## 👨‍💻 About Me
 
-```python
-class YashBrahmankar:
-    def __init__(self):
-        self.name        = "Yash Brahmankar"
-        self.degree      = "B.Tech AI & ML — OIST (2024–2028)"
-        self.location    = "Bhopal, Madhya Pradesh, India"
-        self.certs       = ["Oracle Certified", "Cisco Certified"]
-        self.interests   = ["LLM Systems", "Agentic AI", "Data Science",
-                            "Prompt Engineering", "DSA"]
-        self.currently   = "Building AI systems that create real-world impact"
-        self.goal        = "Future AI Engineer @ a world-class product company"
+<table align="center">
+<tr>
+<td width="45%" align="center">
 
-    def say_hi(self):
-        print("Thanks for visiting — let's build something great together 🚀")
-```
+<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="280" alt="coding gif"/>
+
+</td>
+<td width="55%" valign="top">
+
+### 👋 Hey, I'm Yash Brahmankar!
+
+🎓 **B.Tech AI & ML** — OIST (2024–2028)  
+📍 **Bhopal, Madhya Pradesh, India**  
+🏅 **Oracle Certified** · **Cisco Certified**
+
+---
+
+🤖 Building **LLM Systems** & **Agentic AI**  
+🧠 **Prompt Engineering** · **Data Science** · **DSA**  
+💻 **Python** Developer & **LeetCode** Enthusiast
+
+---
+
+🎯 *"Future AI Engineer @ a world-class product company"*
+
+</td>
+</tr>
+</table>
 
 ---
 
@@ -187,6 +200,7 @@ class YashBrahmankar:
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 ## 🟩 Pixel Name Art
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/loisekk/loisekk/output/output/pixel-name.svg" alt="YASH B. — Pixel Name Art" width="100%"/>
 </p>
