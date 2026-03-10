@@ -1,9 +1,9 @@
 """
 generate_pixel_name.py
-Generates a gitartwork-style SVG spelling "YASH B."
-- Contribution graph green shades (4 levels like GitHub)
-- Each block fades in with a left-to-right wave
-- Clean, minimal, exactly like jasmeri/gitartwork style
+Gitartwork-style SVG spelling "YASH B."
+- 4 GitHub green shades per block
+- Left-to-right wave fade-in
+- Loops forever: fade in → hold → fade out → repeat
 """
 
 import random
@@ -83,11 +83,15 @@ GAP    = 4
 RADIUS = 3
 ROWS   = 7
 
-# GitHub contribution graph green palette (4 levels)
+# GitHub contribution graph green palette
 GREENS = ["#0e4429", "#006d32", "#26a641", "#39d353"]
-
-# Empty cell color
 EMPTY  = "#161b22"
+
+# Loop timing (seconds)
+FADE_IN_DUR  = 0.6   # each block fade-in duration
+WAVE_SPREAD  = 0.07  # stagger per column
+HOLD_TIME    = 2.5   # how long name stays fully visible
+FADE_OUT_DUR = 0.8   # fade out duration
 
 
 def build_svg(text):
@@ -97,6 +101,9 @@ def build_svg(text):
         columns.append(glyph)
 
     total_cols = sum(len(col[0]) for col in columns) + (len(columns) - 1)
+    num_cols   = total_cols
+    max_delay  = round((num_cols - 1) * WAVE_SPREAD, 2)
+
     width  = total_cols * (CELL + GAP) + GAP
     height = ROWS * (CELL + GAP) + GAP + 10
 
@@ -104,22 +111,32 @@ def build_svg(text):
     rects  = []
 
     x_offset  = GAP
-    col_index = 0  # global column counter for wave delay
+    col_index = 0
 
     for li, glyph in enumerate(columns):
         cols_in_letter = len(glyph[0])
 
         for col in range(cols_in_letter):
-            # Stagger delay left → right (wave effect)
-            delay = round(col_index * 0.07, 2)
+            delay = round(col_index * WAVE_SPREAD, 2)
 
-            anim_name = f"fadein{col_index}"
+            # Total loop duration = delay + fade_in + hold + fade_out + pause before restart
+            loop_dur = round(delay + FADE_IN_DUR + HOLD_TIME + FADE_OUT_DUR + 0.5, 2)
+
+            # Keyframe percentages
+            p_start    = 0
+            p_fadein   = round((delay + FADE_IN_DUR) / loop_dur * 100, 1)
+            p_hold_end = round((delay + FADE_IN_DUR + HOLD_TIME) / loop_dur * 100, 1)
+            p_fadeout  = round((delay + FADE_IN_DUR + HOLD_TIME + FADE_OUT_DUR) / loop_dur * 100, 1)
+            p_end      = 100
+
+            anim_name = f"loop{col_index}"
             styles.append(f"""
   @keyframes {anim_name} {{
-    0%   {{ opacity: 0; transform: scale(0.4); }}
-    60%  {{ opacity: 1; transform: scale(1.1); }}
-    80%  {{ transform: scale(0.95); }}
-    100% {{ opacity: 1; transform: scale(1.0); }}
+    {p_start}%   {{ opacity: 0; transform: scale(0.3); }}
+    {p_fadein}%  {{ opacity: 1; transform: scale(1.0); }}
+    {p_hold_end}% {{ opacity: 1; transform: scale(1.0); }}
+    {p_fadeout}% {{ opacity: 0; transform: scale(0.3); }}
+    {p_end}%     {{ opacity: 0; transform: scale(0.3); }}
   }}""")
 
             for row in range(ROWS):
@@ -128,17 +145,16 @@ def build_svg(text):
                 y = GAP + row * (CELL + GAP)
 
                 if val:
-                    # Pick a random green shade per block (like real gitartwork)
                     color = random.choice(GREENS)
                     rects.append(
                         f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" '
                         f'rx="{RADIUS}" ry="{RADIUS}" fill="{color}" '
-                        f'style="opacity:0; animation: {anim_name} 0.6s ease-out {delay}s forwards;"/>'
+                        f'style="opacity:0; animation: {anim_name} {loop_dur}s ease-in-out 0s infinite;"/>'
                     )
                 else:
                     rects.append(
                         f'<rect x="{x}" y="{y}" width="{CELL}" height="{CELL}" '
-                        f'rx="{RADIUS}" ry="{RADIUS}" fill="{EMPTY}" opacity="0.5"/>'
+                        f'rx="{RADIUS}" ry="{RADIUS}" fill="{EMPTY}" opacity="0.4"/>'
                     )
 
             col_index += 1
@@ -162,4 +178,4 @@ if __name__ == "__main__":
     svg = build_svg(TEXT)
     with open("output/pixel-name.svg", "w") as f:
         f.write(svg)
-    print("✅ Gitartwork-style pixel-name.svg generated in output/")
+    print("✅ Looping gitartwork-style pixel-name.svg generated in output/")
