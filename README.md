@@ -107,9 +107,8 @@
 
 ## 📊 GitHub Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=loisekk&show_icons=true&theme=radical&cache_seconds=1800&rank_icon=github&include_all_commits=true&count_private=true" alt="loisekk GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api?username=loisekk&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true" alt="loisekk GitHub Stats"/>
 </p>
-
 <p align="center">
   <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=loisekk&layout=compact&theme=tokyonight&hide_border=true" />
 </p>
