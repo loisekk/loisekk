@@ -166,6 +166,7 @@
   <img src="https://github-trophies.vercel.app/?username=loisekk&theme=tokyonight&no-frame=true&no-bg=true&margin-w=4&column=4" 
        width="100%"
        alt="GitHub Trophies" />
+
 ---
 
 <!-- ═══════════════════════════════════════════════════════════ -->
