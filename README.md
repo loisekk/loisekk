@@ -2,7 +2,7 @@
 <!--                     PREMIUM HEADER                        -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0f0f,30:141E30,70:243B55,100:7c3aed&height=260&section=header&text=YASH%20BRAHMANKAR&fontSize=52&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=AI%20and%20Machine%20Learning%20Engineer&descAlignY=58&descAlign=50&descSize=22&descColor=a78bfa" width="100%"/>
+![Header](https://capsule-render.vercel.app/api?type=waving&color=c084fc&height=200&section=header&text=Yash%20Brahmankar&fontSize=40&fontColor=fff&animation=twinkling&desc=AI%20%26%20ML%20Engineer&descSize=16)
 
 <br/>
 
