@@ -2,7 +2,9 @@
 <!--                     PREMIUM HEADER                        -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-![Header](https://capsule-render.vercel.app/api?type=waving&color=c084fc&height=200&section=header&text=Yash%20Brahmankar&fontSize=40&fontColor=fff&animation=twinkling&desc=AI%20%26%20ML%20Engineer&descSize=16)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/loisekk/loisekk/main/assets/banner.svg" width="100%"/>
+</p>
 
 <br/>
 
