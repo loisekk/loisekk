@@ -87,7 +87,7 @@
 ## Frameworks & Design
 
 <p align="center">
-<img src="https://skillicons.dev/icons?i=fastapi,docker,canva,blender&theme=dark" />
+<img src="https://skillicons.dev/icons?i=fastapi,docker,Canva,blender&theme=dark" />
 </p>
 
 ## Cloud & DevOps
