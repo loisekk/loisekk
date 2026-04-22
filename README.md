@@ -97,13 +97,6 @@
 </p>
 
 
-
-### Languages
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/C-A8B9CC?style=for-the-badge&logo=c&logoColor=black)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-
 ### Data & ML Libraries
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
@@ -115,112 +108,8 @@
 ![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![Transformers](https://img.shields.io/badge/🤗_Transformers-FFD21E?style=for-the-badge&logoColor=black)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
-### Cloud, DBs & DevOps
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=FF9900)
-![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-0DB7ED?style=for-the-badge&logo=docker&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![MySQL](https://img.shields.io/badge/MySQL-00618A?style=for-the-badge&logo=mysql&logoColor=E48E00)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-![Power BI](https://img.shields.io/badge/Power_BI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
-![LeetCode](https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)
 
----
-LANGUAGES
-<span style="display:inline-flex;align-items:center;gap:7px;background:#0d1117;color:#e6edf3;font-family:monospace;font-size:12px;font-weight:600;padding:5px 11px;border-radius:5px;border:1.5px solid #30363d;letter-spacing:0.03em;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="16" height="16" style="filter:brightness(0) invert(1);"/>Python</span>
-C
-C
-JS
-JavaScript
-HTML5
-CSS
-CSS3
-SQL
-SQL
-DATA & ML LIBRARIES
-N
-NumPy
-NumPy
-pandas
-Pandas
-Matplotlib
-Seaborn
-plotly
-Plotly
-SciPy
-SciPy
-ML / AI FRAMEWORKS
-scikit
-learn
-Sklearn
-Tensor
-Flow
-TensorFlow
-PyTorch
-🤗 HF
-Transformers
-Transformers
-Leet
-Code
-LeetCode
-FastAPI
-CLOUD & DEVOPS
-Amazon
-AWS
-AWS
-Google Cloud
-Google Cloud
-Docker
-Git
-Linux
-Power BI
-Power BI
-DATABASES & TOOLS
-My
-SQL
-MySQL
-Postgre
-SQL
-PostgreSQL
-React
-JS
-Node.js
-Ai
-Illustrator
-N
-Notion
-SHIELDS.IO BADGE LINKS FOR README
-Copy the SVG above or use shields.io badge links below
-img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white
-PREVIEW — SHIELDS.IO STYLE
-🐍 Python
-© C
-JS JavaScript
-HTML5
-CSS3
-Git
-NumPy
-pandas
-Matplotlib
-Seaborn
-Plotly
-SciPy
-sklearn
-TensorFlow
-PyTorch
-Transformers
-FastAPI
-AWS
-Google Cloud
-Docker
-Power BI
-LeetCode
-PostgreSQL
-MySQL
-React
-Node.js
 ## 🛠️ Tech Stack
 ### Languages
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
