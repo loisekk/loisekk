@@ -107,7 +107,7 @@
 
 ---
 LANGUAGES
-Python
+<span style="display:inline-flex;align-items:center;gap:7px;background:#0d1117;color:#e6edf3;font-family:monospace;font-size:12px;font-weight:600;padding:5px 11px;border-radius:5px;border:1.5px solid #30363d;letter-spacing:0.03em;"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" width="16" height="16" style="filter:brightness(0) invert(1);"/>Python</span>
 C
 C
 JS
