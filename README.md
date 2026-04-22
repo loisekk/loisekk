@@ -74,11 +74,9 @@
 <p align="center">
   <img src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" width="200" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></img>
 </p>
-## 🛠️ Tech Stack
 
-### 👨‍💻 Languages & Core Tools
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=python,c,html,css,git,github,vscode&theme=dark" />
+  <img src="https://skillicons.dev/icons?i=python,c,fastapi,html,css,git,github,vscode&theme=dark" />
 </p>
 
 ### 🤖 ML & Deep Learning
