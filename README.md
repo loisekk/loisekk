@@ -131,6 +131,15 @@
   <a href="https://leetcode.com/u/Yash_Brahmankar1/">
     <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
   </a>
+  <div align="center">
+<h2 align="center">LeetCode Info</h2>
+<p align="center">
+  <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank"><img align="center" src="https://leetcode.com/static/images/badges/2024/gif/2024-02.gif" height="200" width="200" /></a>
+  <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank"><img align="center" src="https://leetcode.com/static/images/badges/2024/gif/2024-03.gif" height="200" width="200" /></a>
+  <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-200.gif" height="200" width="200" /></a>
+  <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-100.gif" height="200" width="200" /></a>
+</p>
+</div>
 </p>
 ---
 
