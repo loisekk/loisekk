@@ -69,17 +69,17 @@
 <!--                     TECH STACK                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-## 🛠 Language and Tools & Competitive & AI
+## 🛠 Language - Tools & Competitive - AI
 
 <p align="center">
   <img src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" width="200" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></img>
 </p>
 <p align="center">
-<img src="https://skillicons.dev/icons?i=python,c,leetcode,mysql,postgresql,supabase,claude,html,css&theme=dark" />
+<img src="https://skillicons.dev/icons?i=python,c,leet-code,mysql,postgresql,supabase,Claude,html,css&theme=dark" />
 </p>
 ## 📊 Data & Analytics
 <p align="center">
-<img src="https://skillicons.dev/icons?i=Excel,Power BI,jupyter,Kaggle,git,github,vscode,supabase,docker,postgresql,powerbi,leetcode,mysql,git,github,vscode,supabase,docker,postgresql,powerbi,leetcode&theme=dark" />
+<img src="https://skillicons.dev/icons?i=Excel,Powerbi,jupyter,Kaggle,git,github,vscode,supabase,docker,postgresql,powerbi,leetcode,mysql,git,github,vscode,supabase,docker,postgresql,powerbi,leetcode&theme=dark" />
 </p>
 ## Frameworks & Design
 <p align="center">
