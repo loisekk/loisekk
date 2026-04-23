@@ -32,34 +32,9 @@
 
 ## 👨‍💻 About Me
 
-<table align="center">
-<tr>
-<td width="45%" align="center">
-
-<img src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="280" alt="coding gif"/>
-
-</td>
-<td width="55%" valign="top">
-
-### 👋 Hey, I'm Yash Brahmankar!
-
-🎓 **B.Tech AI & ML** — OIST (2024–2028)  
-📍 **Bhopal, Madhya Pradesh, India**  
-🏅 **Oracle Certified** · **Cisco Certified**
-
----
-
-🤖 Building **LLM Systems** & **Agentic AI**  
-🧠 **Prompt Engineering** · **Data Science** · **DSA**  
-💻 **Python** Developer & **LeetCode** Enthusiast
-
----
-
-🎯 *"Future AI Engineer @ a world-class product company"*
-
-</td>
-</tr>
-</table>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/loisekk/loisekk/main/assets/about_neural_cinematic_updated.html" width="100%"/>
+</p>
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284115-f47cd8ff-2ffb-4b04-b5bf-4d1c14c0247f.gif" width="90%" />
