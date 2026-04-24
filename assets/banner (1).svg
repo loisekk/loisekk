@@ -1,0 +1,363 @@
+<svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <filter id="gp" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="gc" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="4" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="tg" x="-20%" y="-60%" width="140%" height="220%">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <style>
+      .hud { font-family:'Courier New',monospace; font-size:8px; letter-spacing:2px; }
+      @keyframes typing {
+        0%   { clip-path:inset(0 100% 0 0); }
+        70%  { clip-path:inset(0 0%   0 0); }
+        100% { clip-path:inset(0 0%   0 0); }
+      }
+      @keyframes blink { 0%,49%{opacity:1} 50%,100%{opacity:0} }
+      @keyframes fadein { from{opacity:0} to{opacity:1} }
+      @keyframes subfade { 0%,55%{opacity:0} 70%,100%{opacity:1} }
+      @keyframes tf1 { 0%,60%{opacity:0} 68%,100%{opacity:1} }
+      @keyframes tf2 { 0%,65%{opacity:0} 73%,100%{opacity:1} }
+      @keyframes tf3 { 0%,70%{opacity:0} 78%,100%{opacity:1} }
+      @keyframes tf4 { 0%,75%{opacity:0} 83%,100%{opacity:1} }
+      @keyframes scanmove { 0%{transform:translateY(-5px)} 100%{transform:translateY(265px)} }
+      #root { animation:fadein 1s ease both; }
+    </style>
+    <path id="pa1" d="M70,65 L196,40" fill="none"/>
+    <path id="pa2" d="M70,112 L196,76" fill="none"/>
+    <path id="pa3" d="M70,159 L196,148" fill="none"/>
+    <path id="pb1" d="M196,76 L318,60" fill="none"/>
+    <path id="pb2" d="M196,112 L318,96" fill="none"/>
+    <path id="pb3" d="M196,148 L318,132" fill="none"/>
+    <path id="pc1" d="M582,60 L704,76" fill="none"/>
+    <path id="pc2" d="M582,96 L704,112" fill="none"/>
+    <path id="pc3" d="M582,168 L704,148" fill="none"/>
+    <path id="pd1" d="M704,40 L830,65" fill="none"/>
+    <path id="pd2" d="M704,112 L830,112" fill="none"/>
+    <path id="pd3" d="M704,184 L830,159" fill="none"/>
+  </defs>
+
+  <g id="root">
+
+  <!-- BG -->
+  <rect width="900" height="260" fill="#07070e" rx="12"/>
+
+  <!-- grid lines -->
+  <line x1="0" y1="65"  x2="900" y2="65"  stroke="rgba(150,100,255,0.03)" stroke-width="1"/>
+  <line x1="0" y1="130" x2="900" y2="130" stroke="rgba(0,220,255,0.03)"   stroke-width="1"/>
+  <line x1="0" y1="195" x2="900" y2="195" stroke="rgba(150,100,255,0.03)" stroke-width="1"/>
+
+  <!-- HUD -->
+  <text x="18" y="24" class="hud" fill="rgba(192,132,252,0.45)">NEURAL_NET v2.4</text>
+  <text x="18" y="37" class="hud" fill="rgba(0,220,255,0.4)">EPOCH: 2048</text>
+  <text x="18" y="50" class="hud" fill="rgba(192,132,252,0.4)">ACC: 99.7%</text>
+  <text x="882" y="24" class="hud" fill="rgba(0,220,255,0.4)"    text-anchor="end">loisekk · github</text>
+  <text x="882" y="37" class="hud" fill="rgba(192,132,252,0.38)" text-anchor="end">OIST · 2024–2028</text>
+
+  <!-- EDGES L0->L1 purple -->
+  <g stroke="rgba(192,132,252,0.1)" stroke-width="0.6" fill="none">
+    <line x1="70" y1="65"  x2="196" y2="40"/>
+    <line x1="70" y1="65"  x2="196" y2="76"/>
+    <line x1="70" y1="65"  x2="196" y2="112"/>
+    <line x1="70" y1="112" x2="196" y2="40"/>
+    <line x1="70" y1="112" x2="196" y2="76"/>
+    <line x1="70" y1="112" x2="196" y2="112"/>
+    <line x1="70" y1="112" x2="196" y2="148"/>
+    <line x1="70" y1="112" x2="196" y2="184"/>
+    <line x1="70" y1="159" x2="196" y2="112"/>
+    <line x1="70" y1="159" x2="196" y2="148"/>
+    <line x1="70" y1="159" x2="196" y2="184"/>
+  </g>
+  <!-- EDGES L1->L2 cyan -->
+  <g stroke="rgba(0,220,255,0.08)" stroke-width="0.6" fill="none">
+    <line x1="196" y1="40"  x2="318" y2="24"/>
+    <line x1="196" y1="40"  x2="318" y2="60"/>
+    <line x1="196" y1="76"  x2="318" y2="24"/>
+    <line x1="196" y1="76"  x2="318" y2="60"/>
+    <line x1="196" y1="76"  x2="318" y2="96"/>
+    <line x1="196" y1="112" x2="318" y2="60"/>
+    <line x1="196" y1="112" x2="318" y2="96"/>
+    <line x1="196" y1="112" x2="318" y2="132"/>
+    <line x1="196" y1="148" x2="318" y2="96"/>
+    <line x1="196" y1="148" x2="318" y2="132"/>
+    <line x1="196" y1="148" x2="318" y2="168"/>
+    <line x1="196" y1="184" x2="318" y2="132"/>
+    <line x1="196" y1="184" x2="318" y2="168"/>
+    <line x1="196" y1="184" x2="318" y2="200"/>
+  </g>
+  <!-- EDGES L3->L4 cyan -->
+  <g stroke="rgba(0,220,255,0.08)" stroke-width="0.6" fill="none">
+    <line x1="582" y1="24"  x2="704" y2="40"/>
+    <line x1="582" y1="60"  x2="704" y2="40"/>
+    <line x1="582" y1="60"  x2="704" y2="76"/>
+    <line x1="582" y1="96"  x2="704" y2="76"/>
+    <line x1="582" y1="96"  x2="704" y2="112"/>
+    <line x1="582" y1="132" x2="704" y2="112"/>
+    <line x1="582" y1="132" x2="704" y2="148"/>
+    <line x1="582" y1="168" x2="704" y2="148"/>
+    <line x1="582" y1="168" x2="704" y2="184"/>
+    <line x1="582" y1="200" x2="704" y2="148"/>
+    <line x1="582" y1="200" x2="704" y2="184"/>
+  </g>
+  <!-- EDGES L4->L5 purple -->
+  <g stroke="rgba(192,132,252,0.1)" stroke-width="0.6" fill="none">
+    <line x1="704" y1="40"  x2="830" y2="65"/>
+    <line x1="704" y1="40"  x2="830" y2="112"/>
+    <line x1="704" y1="76"  x2="830" y2="65"/>
+    <line x1="704" y1="76"  x2="830" y2="112"/>
+    <line x1="704" y1="112" x2="830" y2="65"/>
+    <line x1="704" y1="112" x2="830" y2="112"/>
+    <line x1="704" y1="112" x2="830" y2="159"/>
+    <line x1="704" y1="148" x2="830" y2="112"/>
+    <line x1="704" y1="148" x2="830" y2="159"/>
+    <line x1="704" y1="184" x2="830" y2="112"/>
+    <line x1="704" y1="184" x2="830" y2="159"/>
+  </g>
+  <!-- bridge L2->L3 -->
+  <g stroke="rgba(150,150,255,0.04)" stroke-width="0.5" fill="none">
+    <line x1="318" y1="24"  x2="582" y2="24"/>
+    <line x1="318" y1="96"  x2="582" y2="96"/>
+    <line x1="318" y1="132" x2="582" y2="132"/>
+    <line x1="318" y1="200" x2="582" y2="200"/>
+  </g>
+
+  <!-- PULSES L0->L1 purple -->
+  <circle r="2.2" fill="#c084fc" filter="url(#gp)" opacity="0">
+    <animateMotion dur="1.4s" repeatCount="indefinite" begin="0s"><mpath href="#pa1"/></animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" dur="1.4s" repeatCount="indefinite" begin="0s"/>
+  </circle>
+  <circle r="2.2" fill="#c084fc" filter="url(#gp)" opacity="0">
+    <animateMotion dur="1.6s" repeatCount="indefinite" begin="0.4s"><mpath href="#pa2"/></animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" dur="1.6s" repeatCount="indefinite" begin="0.4s"/>
+  </circle>
+  <circle r="2.2" fill="#c084fc" filter="url(#gp)" opacity="0">
+    <animateMotion dur="1.3s" repeatCount="indefinite" begin="0.8s"><mpath href="#pa3"/></animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" dur="1.3s" repeatCount="indefinite" begin="0.8s"/>
+  </circle>
+
+  <!-- PULSES L1->L2 cyan -->
+  <circle r="2.2" fill="#00dcff" filter="url(#gc)" opacity="0">
+    <animateMotion dur="1.5s" repeatCount="indefinite" begin="0.2s"><mpath href="#pb1"/></animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" dur="1.5s" repeatCount="indefinite" begin="0.2s"/>
+  </circle>
+  <circle r="2.2" fill="#00dcff" filter="url(#gc)" opacity="0">
+    <animateMotion dur="1.7s" repeatCount="indefinite" begin="0.6s"><mpath href="#pb2"/></animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" dur="1.7s" repeatCount="indefinite" begin="0.6s"/>
+  </circle>
+  <circle r="2.2" fill="#00dcff" filter="url(#gc)" opacity="0">
+    <animateMotion dur="1.4s" repeatCount="indefinite" begin="1.1s"><mpath href="#pb3"/></animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" dur="1.4s" repeatCount="indefinite" begin="1.1s"/>
+  </circle>
+
+  <!-- PULSES L3->L4 cyan -->
+  <circle r="2.2" fill="#00dcff" filter="url(#gc)" opacity="0">
+    <animateMotion dur="1.5s" repeatCount="indefinite" begin="0.35s"><mpath href="#pc1"/></animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" dur="1.5s" repeatCount="indefinite" begin="0.35s"/>
+  </circle>
+  <circle r="2.2" fill="#00dcff" filter="url(#gc)" opacity="0">
+    <animateMotion dur="1.6s" repeatCount="indefinite" begin="0.75s"><mpath href="#pc2"/></animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" dur="1.6s" repeatCount="indefinite" begin="0.75s"/>
+  </circle>
+  <circle r="2.2" fill="#00dcff" filter="url(#gc)" opacity="0">
+    <animateMotion dur="1.3s" repeatCount="indefinite" begin="0.15s"><mpath href="#pc3"/></animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" dur="1.3s" repeatCount="indefinite" begin="0.15s"/>
+  </circle>
+
+  <!-- PULSES L4->L5 purple -->
+  <circle r="2.2" fill="#c084fc" filter="url(#gp)" opacity="0">
+    <animateMotion dur="1.4s" repeatCount="indefinite" begin="0.5s"><mpath href="#pd1"/></animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" dur="1.4s" repeatCount="indefinite" begin="0.5s"/>
+  </circle>
+  <circle r="2.2" fill="#c084fc" filter="url(#gp)" opacity="0">
+    <animateMotion dur="1.6s" repeatCount="indefinite" begin="0.9s"><mpath href="#pd2"/></animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" dur="1.6s" repeatCount="indefinite" begin="0.9s"/>
+  </circle>
+  <circle r="2.2" fill="#c084fc" filter="url(#gp)" opacity="0">
+    <animateMotion dur="1.5s" repeatCount="indefinite" begin="0.3s"><mpath href="#pd3"/></animateMotion>
+    <animate attributeName="opacity" values="0;1;1;0" keyTimes="0;0.05;0.85;1" dur="1.5s" repeatCount="indefinite" begin="0.3s"/>
+  </circle>
+
+  <!-- NODES L0 purple -->
+  <g filter="url(#gp)">
+    <circle cx="70" cy="65"  r="4" fill="#c084fc"><animate attributeName="r" values="4;6;4" dur="2.1s" repeatCount="indefinite" begin="0s"/><animate attributeName="opacity" values="0.6;1;0.6" dur="2.1s" repeatCount="indefinite"/></circle>
+    <circle cx="70" cy="112" r="4" fill="#c084fc"><animate attributeName="r" values="4;6;4" dur="1.8s" repeatCount="indefinite" begin="0.5s"/><animate attributeName="opacity" values="0.6;1;0.6" dur="1.8s" repeatCount="indefinite" begin="0.5s"/></circle>
+    <circle cx="70" cy="159" r="4" fill="#c084fc"><animate attributeName="r" values="4;6;4" dur="2.3s" repeatCount="indefinite" begin="1.0s"/><animate attributeName="opacity" values="0.6;1;0.6" dur="2.3s" repeatCount="indefinite" begin="1.0s"/></circle>
+  </g>
+  <circle cx="70" cy="65"  r="2" fill="white" opacity="0.9"/>
+  <circle cx="70" cy="112" r="2" fill="white" opacity="0.9"/>
+  <circle cx="70" cy="159" r="2" fill="white" opacity="0.9"/>
+
+  <!-- NODES L1 mid-purple -->
+  <g filter="url(#gp)">
+    <circle cx="196" cy="40"  r="4" fill="#a78bfa"><animate attributeName="r" values="4;5.5;4" dur="2.0s" repeatCount="indefinite" begin="0.2s"/></circle>
+    <circle cx="196" cy="76"  r="4" fill="#a78bfa"><animate attributeName="r" values="4;5.5;4" dur="1.7s" repeatCount="indefinite" begin="0.6s"/></circle>
+    <circle cx="196" cy="112" r="4" fill="#a78bfa"><animate attributeName="r" values="4;5.5;4" dur="2.2s" repeatCount="indefinite" begin="1.1s"/></circle>
+    <circle cx="196" cy="148" r="4" fill="#a78bfa"><animate attributeName="r" values="4;5.5;4" dur="1.9s" repeatCount="indefinite" begin="0.3s"/></circle>
+    <circle cx="196" cy="184" r="4" fill="#a78bfa"><animate attributeName="r" values="4;5.5;4" dur="2.1s" repeatCount="indefinite" begin="0.8s"/></circle>
+  </g>
+  <circle cx="196" cy="40"  r="2" fill="white" opacity="0.9"/>
+  <circle cx="196" cy="76"  r="2" fill="white" opacity="0.9"/>
+  <circle cx="196" cy="112" r="2" fill="white" opacity="0.9"/>
+  <circle cx="196" cy="148" r="2" fill="white" opacity="0.9"/>
+  <circle cx="196" cy="184" r="2" fill="white" opacity="0.9"/>
+
+  <!-- NODES L2 cyan -->
+  <g filter="url(#gc)">
+    <circle cx="318" cy="24"  r="4" fill="#00dcff"><animate attributeName="r" values="4;6;4" dur="1.9s" repeatCount="indefinite" begin="0.5s"/></circle>
+    <circle cx="318" cy="60"  r="4" fill="#00dcff"><animate attributeName="r" values="4;6;4" dur="2.2s" repeatCount="indefinite" begin="0.1s"/></circle>
+    <circle cx="318" cy="96"  r="4" fill="#00dcff"><animate attributeName="r" values="4;6;4" dur="1.7s" repeatCount="indefinite" begin="0.9s"/></circle>
+    <circle cx="318" cy="132" r="4" fill="#00dcff"><animate attributeName="r" values="4;6;4" dur="2.0s" repeatCount="indefinite" begin="0.4s"/></circle>
+    <circle cx="318" cy="168" r="4" fill="#00dcff"><animate attributeName="r" values="4;6;4" dur="2.3s" repeatCount="indefinite" begin="0.7s"/></circle>
+    <circle cx="318" cy="200" r="4" fill="#00dcff"><animate attributeName="r" values="4;6;4" dur="1.8s" repeatCount="indefinite" begin="1.2s"/></circle>
+  </g>
+  <circle cx="318" cy="24"  r="2" fill="white" opacity="0.9"/>
+  <circle cx="318" cy="60"  r="2" fill="white" opacity="0.9"/>
+  <circle cx="318" cy="96"  r="2" fill="white" opacity="0.9"/>
+  <circle cx="318" cy="132" r="2" fill="white" opacity="0.9"/>
+  <circle cx="318" cy="168" r="2" fill="white" opacity="0.9"/>
+  <circle cx="318" cy="200" r="2" fill="white" opacity="0.9"/>
+
+  <!-- NODES L3 cyan -->
+  <g filter="url(#gc)">
+    <circle cx="582" cy="24"  r="4" fill="#00dcff"><animate attributeName="r" values="4;6;4" dur="2.1s" repeatCount="indefinite" begin="0.3s"/></circle>
+    <circle cx="582" cy="60"  r="4" fill="#00dcff"><animate attributeName="r" values="4;6;4" dur="1.8s" repeatCount="indefinite" begin="0.8s"/></circle>
+    <circle cx="582" cy="96"  r="4" fill="#00dcff"><animate attributeName="r" values="4;6;4" dur="2.3s" repeatCount="indefinite" begin="0.0s"/></circle>
+    <circle cx="582" cy="132" r="4" fill="#00dcff"><animate attributeName="r" values="4;6;4" dur="1.9s" repeatCount="indefinite" begin="1.0s"/></circle>
+    <circle cx="582" cy="168" r="4" fill="#00dcff"><animate attributeName="r" values="4;6;4" dur="2.0s" repeatCount="indefinite" begin="0.5s"/></circle>
+    <circle cx="582" cy="200" r="4" fill="#00dcff"><animate attributeName="r" values="4;6;4" dur="1.7s" repeatCount="indefinite" begin="1.3s"/></circle>
+  </g>
+  <circle cx="582" cy="24"  r="2" fill="white" opacity="0.9"/>
+  <circle cx="582" cy="60"  r="2" fill="white" opacity="0.9"/>
+  <circle cx="582" cy="96"  r="2" fill="white" opacity="0.9"/>
+  <circle cx="582" cy="132" r="2" fill="white" opacity="0.9"/>
+  <circle cx="582" cy="168" r="2" fill="white" opacity="0.9"/>
+  <circle cx="582" cy="200" r="2" fill="white" opacity="0.9"/>
+
+  <!-- NODES L4 mid-purple -->
+  <g filter="url(#gp)">
+    <circle cx="704" cy="40"  r="4" fill="#a78bfa"><animate attributeName="r" values="4;5.5;4" dur="2.0s" repeatCount="indefinite" begin="0.6s"/></circle>
+    <circle cx="704" cy="76"  r="4" fill="#a78bfa"><animate attributeName="r" values="4;5.5;4" dur="1.8s" repeatCount="indefinite" begin="0.2s"/></circle>
+    <circle cx="704" cy="112" r="4" fill="#a78bfa"><animate attributeName="r" values="4;5.5;4" dur="2.1s" repeatCount="indefinite" begin="1.0s"/></circle>
+    <circle cx="704" cy="148" r="4" fill="#a78bfa"><animate attributeName="r" values="4;5.5;4" dur="1.9s" repeatCount="indefinite" begin="0.4s"/></circle>
+    <circle cx="704" cy="184" r="4" fill="#a78bfa"><animate attributeName="r" values="4;5.5;4" dur="2.2s" repeatCount="indefinite" begin="0.9s"/></circle>
+  </g>
+  <circle cx="704" cy="40"  r="2" fill="white" opacity="0.9"/>
+  <circle cx="704" cy="76"  r="2" fill="white" opacity="0.9"/>
+  <circle cx="704" cy="112" r="2" fill="white" opacity="0.9"/>
+  <circle cx="704" cy="148" r="2" fill="white" opacity="0.9"/>
+  <circle cx="704" cy="184" r="2" fill="white" opacity="0.9"/>
+
+  <!-- NODES L5 purple -->
+  <g filter="url(#gp)">
+    <circle cx="830" cy="65"  r="4" fill="#c084fc"><animate attributeName="r" values="4;6;4" dur="2.1s" repeatCount="indefinite" begin="0.7s"/></circle>
+    <circle cx="830" cy="112" r="4" fill="#c084fc"><animate attributeName="r" values="4;6;4" dur="1.9s" repeatCount="indefinite" begin="0.1s"/></circle>
+    <circle cx="830" cy="159" r="4" fill="#c084fc"><animate attributeName="r" values="4;6;4" dur="2.3s" repeatCount="indefinite" begin="0.5s"/></circle>
+  </g>
+  <circle cx="830" cy="65"  r="2" fill="white" opacity="0.9"/>
+  <circle cx="830" cy="112" r="2" fill="white" opacity="0.9"/>
+  <circle cx="830" cy="159" r="2" fill="white" opacity="0.9"/>
+
+  <!-- ══ CENTRE PANEL ══ -->
+  <rect x="336" y="58" width="228" height="154" fill="#07070e" rx="6" opacity="0.96"/>
+  <rect x="336" y="58" width="228" height="154" fill="none" stroke="rgba(192,132,252,0.22)" stroke-width="0.8" rx="6"/>
+
+  <!-- Name glow + typing -->
+  <text x="450" y="100" filter="url(#tg)"
+    font-family="'Courier New',Courier,monospace" font-size="22" font-weight="bold"
+    fill="#a78bfa" text-anchor="middle" opacity="0.35"
+    style="animation:typing 2.8s steps(16,end) both">YASH BRAHMANKAR</text>
+  <text x="450" y="100"
+    font-family="'Courier New',Courier,monospace" font-size="22" font-weight="bold"
+    fill="#ffffff" text-anchor="middle"
+    style="animation:typing 2.8s steps(16,end) both">YASH BRAHMANKAR</text>
+
+  <!-- blinking cursor after name -->
+  <rect x="566" y="82" width="2" height="19" fill="#00dcff">
+    <animate attributeName="opacity" values="1;0;1;0;1;0;1;0;0" dur="3.2s" fill="freeze"/>
+  </rect>
+
+  <!-- tagline -->
+  <text x="450" y="118"
+    font-family="'Courier New',Courier,monospace" font-size="8.5"
+    fill="#00dcff" text-anchor="middle" letter-spacing="2.5"
+    style="animation:subfade 3.5s ease both">AI ENGINEER · RAG · AGENTS · DEEP LEARNING</text>
+
+  <!-- divider -->
+  <line x1="355" y1="128" x2="545" y2="128" stroke="rgba(192,132,252,0.18)" stroke-width="0.6"/>
+
+  <!-- SKILL TAGS staggered -->
+  <g style="animation:tf1 3.8s ease both">
+    <rect x="346" y="133" width="34" height="14" fill="none" stroke="#c084fc" stroke-width="0.7" rx="3">
+      <animate attributeName="opacity" values="0.35;0.8;0.35" dur="2.4s" repeatCount="indefinite" begin="4s"/>
+    </rect>
+    <text x="363" y="144" font-family="'Courier New',monospace" font-size="8" fill="#c084fc" text-anchor="middle" letter-spacing="1">RAG</text>
+  </g>
+  <g style="animation:tf2 3.8s ease both">
+    <rect x="386" y="133" width="52" height="14" fill="none" stroke="#a78bfa" stroke-width="0.7" rx="3">
+      <animate attributeName="opacity" values="0.4;0.85;0.4" dur="2.2s" repeatCount="indefinite" begin="4.2s"/>
+    </rect>
+    <text x="412" y="144" font-family="'Courier New',monospace" font-size="8" fill="#a78bfa" text-anchor="middle" letter-spacing="1">AGENTS</text>
+  </g>
+  <g style="animation:tf3 3.8s ease both">
+    <rect x="444" y="133" width="64" height="14" fill="none" stroke="#00dcff" stroke-width="0.7" rx="3">
+      <animate attributeName="opacity" values="0.3;0.75;0.3" dur="2.6s" repeatCount="indefinite" begin="4.4s"/>
+    </rect>
+    <text x="476" y="144" font-family="'Courier New',monospace" font-size="8" fill="#00dcff" text-anchor="middle" letter-spacing="1">DEEP LEARN</text>
+  </g>
+  <g style="animation:tf4 3.8s ease both">
+    <rect x="514" y="133" width="44" height="14" fill="none" stroke="#c084fc" stroke-width="0.7" rx="3">
+      <animate attributeName="opacity" values="0.38;0.82;0.38" dur="2.3s" repeatCount="indefinite" begin="4.6s"/>
+    </rect>
+    <text x="536" y="144" font-family="'Courier New',monospace" font-size="8" fill="#c084fc" text-anchor="middle" letter-spacing="1">PYTHON</text>
+  </g>
+
+  <!-- divider 2 -->
+  <line x1="355" y1="155" x2="545" y2="155" stroke="rgba(0,220,255,0.12)" stroke-width="0.6"/>
+
+  <!-- STATS BARS -->
+  <text x="347" y="166" font-family="'Courier New',monospace" font-size="7" fill="rgba(0,220,255,0.55)" letter-spacing="1">COMMITS</text>
+  <rect x="347" y="169" width="96" height="3.5" rx="2" fill="rgba(255,255,255,0.06)"/>
+  <rect x="347" y="169" width="0"  height="3.5" rx="2" fill="#00dcff">
+    <animate attributeName="width" values="0;84" dur="1.4s" fill="freeze" begin="0.4s"/>
+  </rect>
+  <text x="449" y="174" font-family="'Courier New',monospace" font-size="7" fill="rgba(0,220,255,0.6)">880+</text>
+
+  <text x="347" y="185" font-family="'Courier New',monospace" font-size="7" fill="rgba(192,132,252,0.55)" letter-spacing="1">REPOS</text>
+  <rect x="347" y="188" width="96" height="3.5" rx="2" fill="rgba(255,255,255,0.06)"/>
+  <rect x="347" y="188" width="0"  height="3.5" rx="2" fill="#c084fc">
+    <animate attributeName="width" values="0;58" dur="1.4s" fill="freeze" begin="0.7s"/>
+  </rect>
+  <text x="449" y="193" font-family="'Courier New',monospace" font-size="7" fill="rgba(192,132,252,0.6)">20+</text>
+
+  <text x="468" y="166" font-family="'Courier New',monospace" font-size="7" fill="rgba(0,220,255,0.55)" letter-spacing="1">STREAK</text>
+  <rect x="468" y="169" width="88" height="3.5" rx="2" fill="rgba(255,255,255,0.06)"/>
+  <rect x="468" y="169" width="0"  height="3.5" rx="2" fill="#00dcff">
+    <animate attributeName="width" values="0;52" dur="1.4s" fill="freeze" begin="1.0s"/>
+  </rect>
+
+  <text x="468" y="185" font-family="'Courier New',monospace" font-size="7" fill="rgba(192,132,252,0.55)" letter-spacing="1">CERTS</text>
+  <rect x="468" y="188" width="88" height="3.5" rx="2" fill="rgba(255,255,255,0.06)"/>
+  <rect x="468" y="188" width="0"  height="3.5" rx="2" fill="#c084fc">
+    <animate attributeName="width" values="0;44" dur="1.4s" fill="freeze" begin="1.2s"/>
+  </rect>
+
+  <!-- ══ SCANLINE ══ -->
+  <rect x="0" y="0" width="900" height="2" fill="rgba(180,120,255,0.045)">
+    <animateTransform attributeName="transform" type="translate" values="0,0;0,265" dur="5s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- BORDER + CORNER ACCENTS -->
+  <rect x="1" y="1" width="898" height="258" fill="none" stroke="rgba(192,132,252,0.18)" stroke-width="1" rx="11"/>
+  <path d="M1,22 L1,1 L22,1"   fill="none" stroke="#00dcff" stroke-width="1.5" opacity="0.55"/>
+  <path d="M878,1 L899,1 L899,22"  fill="none" stroke="#00dcff" stroke-width="1.5" opacity="0.55"/>
+  <path d="M1,238 L1,259 L22,259"  fill="none" stroke="#c084fc" stroke-width="1.5" opacity="0.55"/>
+  <path d="M878,259 L899,259 L899,238" fill="none" stroke="#c084fc" stroke-width="1.5" opacity="0.55"/>
+
+  </g>
+</svg>
