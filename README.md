@@ -3,7 +3,7 @@
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/loisekk/loisekk/main/assets/banner.svg" width="100%"/>
+  <img src="https://raw.githubusercontent.com/loisekk/loisekk/main/assets/banner(1).svg" width="100%"/>
 </p>
 
 <br/>
