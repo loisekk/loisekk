@@ -131,17 +131,19 @@
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 ## 📊 GitHub Stats
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=loisekk&show_icons=true&theme=radical&include_all_commits=true&count_private=true&hide_border=true" alt="loisekk GitHub Stats"/>
-</p>
-<p align="center">
-  <img height="180" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=loisekk&layout=compact&theme=tokyonight&hide_border=true" />
-</p>
+<div align="center">
 
-<p align="center">
-  <img src="https://streak-stats.demolab.com/?user=loisekk&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D" />
-</p>
+<img src="https://github-readme-stats.vercel.app/api?username=loisekk&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github&hide=contribs" height="160" alt="GitHub Stats"/>
+&nbsp;&nbsp;
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loisekk&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="160" alt="Top Languages"/>
 
+</div>
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com/?user=loisekk&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&mode=weekly" height="140" alt="GitHub Streak"/>
+
+</div>
 ---
 
 <!-- ═══════════════════════════════════════════════════════════ -->
