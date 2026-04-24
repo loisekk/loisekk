@@ -96,10 +96,21 @@
   <a href="https://www.kaggle.com/yashbrahmankar95">
     <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original.svg" title="Kaggle" width="40" height="40" style="background:#0d1117;border:1.5px solid #30363d;border-radius:5px;padding:8px;box-sizing:border-box;object-fit:contain;"/>
   </a>
-  <a href="https://huggingface.co/loisekk">
-  <img src="https://huggingface.co/front/assets/huggingface_logo-nobg.png" title="Hugging Face" width="40" height="40" style="background:#0d1117;border:1.5px solid #30363d;border-radius:5px;padding:8px;box-sizing:border-box;object-fit:contain;"/>
+<a href="https://huggingface.co/loisekk">
+  <img 
+    src="https://huggingface.co/front/assets/huggingface_logo-nobg.png" 
+    title="Hugging Face" 
+    width="40" 
+    height="40" 
+    style="
+      background: #0d1117;
+      border: 1.5px solid #30363d;
+      border-radius: 5px;
+      padding: 4px;
+      display: inline-block;
+    "
+  />
 </a>
-</p>
 
 ### 🏆 Competitive Programming
 <p align="center">
