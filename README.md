@@ -33,7 +33,7 @@
 ## 👨‍💻 About Me
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/loisekk/loisekk/main/assets/about_neural_cinematic_updated.html" width="100%"/>
+  <img src="https://raw.githubusercontent.com/loisekk/loisekk/main/assets/banner.svg" width="100%"/>
 </p>
 
 <p align="center">
