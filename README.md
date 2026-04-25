@@ -188,8 +188,7 @@
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/loisekk/loisekk/main/trophies.svg" width="100%" alt="GitHub Trophies"/>
-</p>
----
+</p>---
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--            3D CONSTELLATION CONTRIBUTION GRAPH            -->
