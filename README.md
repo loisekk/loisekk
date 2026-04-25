@@ -124,7 +124,7 @@
   <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-100.gif" height="200" width="200" /></a>
 </p>
 </div>
----
+
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                   GITHUB STATS                            -->
@@ -144,7 +144,7 @@
 <img src="https://streak-stats.demolab.com/?user=loisekk&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&mode=weekly" height="140" alt="GitHub Streak"/>
 
 </div>
----
+
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--               PROFILE SUMMARY CARDS                       -->
@@ -224,7 +224,7 @@
 <p align="center">
   <img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake-dark.svg" />
 </p>
----
+
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                     ROADMAP                               -->
 <!-- ═══════════════════════════════════════════════════════════ -->
@@ -269,7 +269,7 @@
 
 </div>
 
----
+
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                    FOOTER                                 -->
