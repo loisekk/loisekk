@@ -1,0 +1,321 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 420" width="860" height="420">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a0a1a"/>
+      <stop offset="100%" stop-color="#05050f"/>
+    </linearGradient>
+    <linearGradient id="gg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#f5c542"/>
+      <stop offset="100%" stop-color="#f0903a"/>
+    </linearGradient>
+    <linearGradient id="gc" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#00d4ff"/>
+      <stop offset="100%" stop-color="#0080ff"/>
+    </linearGradient>
+    <linearGradient id="gv" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#a78bfa"/>
+      <stop offset="100%" stop-color="#7c3aed"/>
+    </linearGradient>
+    <linearGradient id="gt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2dd4bf"/>
+      <stop offset="100%" stop-color="#059669"/>
+    </linearGradient>
+    <linearGradient id="gs" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#94a3b8"/>
+      <stop offset="100%" stop-color="#64748b"/>
+    </linearGradient>
+    <!-- Glow filters -->
+    <filter id="glow-gold" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-cyan" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-violet" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="glow-teal" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+
+  <style>
+    /* Card fade+slide in */
+    .c1 { animation: fadeUp 0.5s ease 0.1s both; }
+    .c2 { animation: fadeUp 0.5s ease 0.2s both; }
+    .c3 { animation: fadeUp 0.5s ease 0.3s both; }
+    .c4 { animation: fadeUp 0.5s ease 0.4s both; }
+    .c5 { animation: fadeUp 0.5s ease 0.5s both; }
+    .c6 { animation: fadeUp 0.5s ease 0.6s both; }
+    .c7 { animation: fadeUp 0.5s ease 0.7s both; }
+    .c8 { animation: fadeUp 0.5s ease 0.8s both; }
+
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(16px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* Cup float */
+    .cup1 { animation: float 3.5s ease-in-out 0s infinite; }
+    .cup2 { animation: float 3.5s ease-in-out 0.3s infinite; }
+    .cup3 { animation: float 3.5s ease-in-out 0.6s infinite; }
+    .cup4 { animation: float 3.5s ease-in-out 0.9s infinite; }
+    .cup5 { animation: float 3.5s ease-in-out 1.2s infinite; }
+    .cup6 { animation: float 3.5s ease-in-out 1.5s infinite; }
+    .cup7 { animation: float 3.5s ease-in-out 1.8s infinite; }
+    .cup8 { animation: float 3.5s ease-in-out 2.1s infinite; }
+
+    @keyframes float {
+      0%, 100% { transform: translateY(0px); }
+      50%       { transform: translateY(-5px); }
+    }
+
+    /* Bar fill animations */
+    .b-sss  { animation: bar-sss  1.4s cubic-bezier(0.16,1,0.3,1) 1s both; }
+    .b-ml   { animation: bar-ml   1.4s cubic-bezier(0.16,1,0.3,1) 1.1s both; }
+    .b-lt   { animation: bar-lt   1.4s cubic-bezier(0.16,1,0.3,1) 1.2s both; }
+    .b-nu   { animation: bar-nu   1.4s cubic-bezier(0.16,1,0.3,1) 1.3s both; }
+    .b-cm   { animation: bar-cm   1.4s cubic-bezier(0.16,1,0.3,1) 1.4s both; }
+    .b-st   { animation: bar-st   1.4s cubic-bezier(0.16,1,0.3,1) 1.5s both; }
+    .b-rp   { animation: bar-rp   1.4s cubic-bezier(0.16,1,0.3,1) 1.6s both; }
+    .b-fl   { animation: bar-fl   1.4s cubic-bezier(0.16,1,0.3,1) 1.7s both; }
+
+    @keyframes bar-sss { from { width: 0; } to { width: 152px; } }
+    @keyframes bar-ml  { from { width: 0; } to { width: 84px; } }
+    @keyframes bar-lt  { from { width: 0; } to { width: 76px; } }
+    @keyframes bar-nu  { from { width: 0; } to { width: 72px; } }
+    @keyframes bar-cm  { from { width: 0; } to { width: 134px; } }
+    @keyframes bar-st  { from { width: 0; } to { width: 94px; } }
+    @keyframes bar-rp  { from { width: 0; } to { width: 76px; } }
+    @keyframes bar-fl  { from { width: 0; } to { width: 46px; } }
+
+    /* shimmer on header text */
+    .shimmer { animation: shimmer 3s ease-in-out infinite; }
+    @keyframes shimmer {
+      0%,100% { fill: rgba(255,255,255,0.75); }
+      50%      { fill: rgba(255,255,255,1); }
+    }
+
+    /* pulse glow on SSS card border */
+    .pulse-border { animation: pulse 2.5s ease-in-out infinite; }
+    @keyframes pulse {
+      0%,100% { opacity: 0.3; }
+      50%      { opacity: 0.9; }
+    }
+
+    /* star twinkle */
+    .twinkle1 { animation: twinkle 2s ease-in-out 0s infinite; }
+    .twinkle2 { animation: twinkle 2s ease-in-out 0.7s infinite; }
+    .twinkle3 { animation: twinkle 2s ease-in-out 1.4s infinite; }
+    @keyframes twinkle {
+      0%,100% { opacity: 0.15; r: 1.5px; }
+      50%      { opacity: 0.8;  r: 2.5px; }
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="860" height="420" rx="16" fill="url(#bg)"/>
+  <rect width="860" height="420" rx="16" fill="none" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+
+  <!-- Ambient glow blobs -->
+  <ellipse cx="180" cy="80" rx="160" ry="80" fill="rgba(99,88,255,0.07)"/>
+  <ellipse cx="700" cy="350" rx="140" ry="70" fill="rgba(0,200,160,0.06)"/>
+  <ellipse cx="430" cy="210" rx="100" ry="60" fill="rgba(245,197,66,0.04)"/>
+
+  <!-- Twinkling stars -->
+  <circle class="twinkle1" cx="50" cy="30" r="1.5" fill="white"/>
+  <circle class="twinkle2" cx="800" cy="50" r="1.5" fill="white"/>
+  <circle class="twinkle3" cx="430" cy="15" r="1.5" fill="white"/>
+  <circle class="twinkle1" cx="700" cy="400" r="1.5" fill="white"/>
+  <circle class="twinkle2" cx="100" cy="380" r="1.5" fill="white"/>
+
+  <!-- Header -->
+  <rect x="24" y="16" width="26" height="26" rx="7" fill="url(#gg)" filter="url(#glow-gold)"/>
+  <text x="37" y="34" text-anchor="middle" font-size="13" font-family="Arial">🏆</text>
+  <text class="shimmer" x="58" y="34" font-family="'Courier New',monospace" font-size="12" font-weight="700" letter-spacing="2">GITHUB TROPHIES — loisekk</text>
+  <line x1="24" y1="50" x2="836" y2="50" stroke="rgba(255,255,255,0.07)" stroke-width="1"/>
+
+  <!-- ===== ROW 1 ===== -->
+
+  <!-- CARD 1: AchieveSSSRank (gold) -->
+  <g class="c1">
+    <rect x="16" y="60" width="196" height="162" rx="12" fill="rgba(255,255,255,0.04)"/>
+    <rect class="pulse-border" x="16" y="60" width="196" height="162" rx="12" fill="none" stroke="#f5c542" stroke-width="1.5"/>
+    <rect x="40" y="60" width="148" height="1.5" rx="1" fill="url(#gg)" opacity="0.8"/>
+    <text x="196" y="76" text-anchor="end" font-family="'Courier New',monospace" font-size="8" font-weight="900" fill="#f5c542">SSS</text>
+    <text x="114" y="76" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#f5c542" opacity="0.8" letter-spacing="1">ACHIEVESSSRANK</text>
+    <g class="cup1" filter="url(#glow-gold)">
+      <path d="M94 90 Q80 90 80 98 Q80 110 94 110" stroke="#f0903a" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M134 90 Q148 90 148 98 Q148 110 134 110" stroke="#f0903a" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M94 84 L134 84 L130 114 L98 114 Z" fill="url(#gg)"/>
+      <rect x="92" y="82" width="44" height="6" rx="3" fill="#f5c542" opacity="0.95"/>
+      <path d="M97 87 Q99 85 101 87 L101 110 Q99 111 97 110Z" fill="white" opacity="0.12"/>
+      <rect x="110" y="114" width="8" height="6" rx="1" fill="#f0903a"/>
+      <rect x="102" y="120" width="24" height="5" rx="2" fill="#f5c542"/>
+      <text x="114" y="108" text-anchor="middle" font-family="'Courier New',monospace" font-size="11" font-weight="900" fill="rgba(0,0,0,0.8)">SSS</text>
+    </g>
+    <text x="114" y="142" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.5)">SSS Rank Hacker</text>
+    <rect x="30" y="208" width="152" height="3" rx="1.5" fill="rgba(255,255,255,0.06)"/>
+    <rect class="b-sss" x="30" y="208" height="3" rx="1.5" fill="url(#gg)"/>
+  </g>
+
+  <!-- CARD 2: MultiLanguage (gold) -->
+  <g class="c2">
+    <rect x="222" y="60" width="196" height="162" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(245,197,66,0.25)" stroke-width="1"/>
+    <rect x="246" y="60" width="148" height="1.5" rx="1" fill="url(#gg)" opacity="0.5"/>
+    <text x="402" y="76" text-anchor="end" font-family="'Courier New',monospace" font-size="8" font-weight="900" fill="#f5c542">S</text>
+    <text x="320" y="76" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#f5c542" opacity="0.8" letter-spacing="1">MULTILANGUAGE</text>
+    <g class="cup2" filter="url(#glow-gold)">
+      <path d="M300 90 Q286 90 286 98 Q286 110 300 110" stroke="#f0903a" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M340 90 Q354 90 354 98 Q354 110 340 110" stroke="#f0903a" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M300 84 L340 84 L336 114 L304 114 Z" fill="url(#gg)"/>
+      <rect x="298" y="82" width="44" height="6" rx="3" fill="#f5c542" opacity="0.95"/>
+      <path d="M303 87 Q305 85 307 87 L307 110 Q305 111 303 110Z" fill="white" opacity="0.12"/>
+      <rect x="316" y="114" width="8" height="6" rx="1" fill="#f0903a"/>
+      <rect x="308" y="120" width="24" height="5" rx="2" fill="#f5c542"/>
+      <text x="320" y="108" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" font-weight="900" fill="rgba(0,0,0,0.8)">S</text>
+    </g>
+    <text x="320" y="142" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.5)">Rainbow Lang User</text>
+    <text x="320" y="157" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" font-weight="700" fill="#f5c542">5pt</text>
+    <rect x="236" y="208" width="152" height="3" rx="1.5" fill="rgba(255,255,255,0.06)"/>
+    <rect class="b-ml" x="236" y="208" height="3" rx="1.5" fill="url(#gg)"/>
+  </g>
+
+  <!-- CARD 3: LongTimeUser (gold) -->
+  <g class="c3">
+    <rect x="428" y="60" width="196" height="162" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(245,197,66,0.2)" stroke-width="1"/>
+    <rect x="452" y="60" width="148" height="1.5" rx="1" fill="url(#gg)" opacity="0.5"/>
+    <text x="608" y="76" text-anchor="end" font-family="'Courier New',monospace" font-size="8" font-weight="900" fill="#f5c542">S</text>
+    <text x="526" y="76" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#f5c542" opacity="0.8" letter-spacing="1">LONGTIMEUSER</text>
+    <g class="cup3" filter="url(#glow-gold)">
+      <path d="M506 90 Q492 90 492 98 Q492 110 506 110" stroke="#f0903a" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M546 90 Q560 90 560 98 Q560 110 546 110" stroke="#f0903a" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M506 84 L546 84 L542 114 L510 114 Z" fill="url(#gg)"/>
+      <rect x="504" y="82" width="44" height="6" rx="3" fill="#f5c542" opacity="0.95"/>
+      <path d="M509 87 Q511 85 513 87 L513 110 Q511 111 509 110Z" fill="white" opacity="0.12"/>
+      <rect x="522" y="114" width="8" height="6" rx="1" fill="#f0903a"/>
+      <rect x="514" y="120" width="24" height="5" rx="2" fill="#f5c542"/>
+      <text x="526" y="108" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" font-weight="900" fill="rgba(0,0,0,0.8)">S</text>
+    </g>
+    <text x="526" y="142" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.5)">Village Elder</text>
+    <text x="526" y="157" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" font-weight="700" fill="#f5c542">0yr</text>
+    <rect x="442" y="208" width="152" height="3" rx="1.5" fill="rgba(255,255,255,0.06)"/>
+    <rect class="b-lt" x="442" y="208" height="3" rx="1.5" fill="url(#gg)"/>
+  </g>
+
+  <!-- CARD 4: NewUser (gold) -->
+  <g class="c4">
+    <rect x="634" y="60" width="210" height="162" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(245,197,66,0.2)" stroke-width="1"/>
+    <rect x="658" y="60" width="162" height="1.5" rx="1" fill="url(#gg)" opacity="0.5"/>
+    <text x="828" y="76" text-anchor="end" font-family="'Courier New',monospace" font-size="8" font-weight="900" fill="#f5c542">S</text>
+    <text x="739" y="76" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#f5c542" opacity="0.8" letter-spacing="1">NEWUSER</text>
+    <g class="cup4" filter="url(#glow-gold)">
+      <path d="M719 90 Q705 90 705 98 Q705 110 719 110" stroke="#f0903a" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M759 90 Q773 90 773 98 Q773 110 759 110" stroke="#f0903a" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M719 84 L759 84 L755 114 L723 114 Z" fill="url(#gg)"/>
+      <rect x="717" y="82" width="44" height="6" rx="3" fill="#f5c542" opacity="0.95"/>
+      <path d="M722 87 Q724 85 726 87 L726 110 Q724 111 722 110Z" fill="white" opacity="0.12"/>
+      <rect x="735" y="114" width="8" height="6" rx="1" fill="#f0903a"/>
+      <rect x="727" y="120" width="24" height="5" rx="2" fill="#f5c542"/>
+      <text x="739" y="108" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" font-weight="900" fill="rgba(0,0,0,0.8)">S</text>
+    </g>
+    <text x="739" y="142" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.5)">After 2020</text>
+    <rect x="648" y="208" width="182" height="3" rx="1.5" fill="rgba(255,255,255,0.06)"/>
+    <rect class="b-nu" x="648" y="208" height="3" rx="1.5" fill="url(#gg)"/>
+  </g>
+
+  <!-- ===== ROW 2 ===== -->
+
+  <!-- CARD 5: Commits (cyan) -->
+  <g class="c5">
+    <rect x="16" y="232" width="196" height="162" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(0,212,255,0.25)" stroke-width="1"/>
+    <rect x="40" y="232" width="148" height="1.5" rx="1" fill="url(#gc)" opacity="0.7"/>
+    <text x="196" y="248" text-anchor="end" font-family="'Courier New',monospace" font-size="8" font-weight="900" fill="#00d4ff">S</text>
+    <text x="114" y="248" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#00d4ff" opacity="0.8" letter-spacing="1">COMMITS</text>
+    <g class="cup5" filter="url(#glow-cyan)">
+      <path d="M94 262 Q80 262 80 270 Q80 282 94 282" stroke="#0080ff" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M134 262 Q148 262 148 270 Q148 282 134 282" stroke="#0080ff" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M94 256 L134 256 L130 286 L98 286 Z" fill="url(#gc)"/>
+      <rect x="92" y="254" width="44" height="6" rx="3" fill="#00d4ff" opacity="0.95"/>
+      <path d="M97 259 Q99 257 101 259 L101 282 Q99 283 97 282Z" fill="white" opacity="0.12"/>
+      <rect x="110" y="286" width="8" height="6" rx="1" fill="#0080ff"/>
+      <rect x="102" y="292" width="24" height="5" rx="2" fill="#00d4ff"/>
+      <text x="114" y="280" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" font-weight="900" fill="rgba(0,0,0,0.8)">S</text>
+    </g>
+    <text x="114" y="312" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.5)">Super Committer</text>
+    <text x="114" y="327" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" font-weight="700" fill="#00d4ff">707pt</text>
+    <rect x="30" y="380" width="152" height="3" rx="1.5" fill="rgba(255,255,255,0.06)"/>
+    <rect class="b-cm" x="30" y="380" height="3" rx="1.5" fill="url(#gc)"/>
+  </g>
+
+  <!-- CARD 6: Stars (violet) -->
+  <g class="c6">
+    <rect x="222" y="232" width="196" height="162" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(167,139,250,0.25)" stroke-width="1"/>
+    <rect x="246" y="232" width="148" height="1.5" rx="1" fill="url(#gv)" opacity="0.7"/>
+    <text x="402" y="248" text-anchor="end" font-family="'Courier New',monospace" font-size="8" font-weight="900" fill="#a78bfa">A</text>
+    <text x="320" y="248" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#a78bfa" opacity="0.8" letter-spacing="1">STARS</text>
+    <g class="cup6" filter="url(#glow-violet)">
+      <path d="M300 262 Q286 262 286 270 Q286 282 300 282" stroke="#7c3aed" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M340 262 Q354 262 354 270 Q354 282 340 282" stroke="#7c3aed" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M300 256 L340 256 L336 286 L304 286 Z" fill="url(#gv)"/>
+      <rect x="298" y="254" width="44" height="6" rx="3" fill="#a78bfa" opacity="0.95"/>
+      <path d="M303 259 Q305 257 307 259 L307 282 Q305 283 303 282Z" fill="white" opacity="0.12"/>
+      <rect x="316" y="286" width="8" height="6" rx="1" fill="#7c3aed"/>
+      <rect x="308" y="292" width="24" height="5" rx="2" fill="#a78bfa"/>
+      <text x="320" y="280" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" font-weight="900" fill="rgba(0,0,0,0.8)">A</text>
+    </g>
+    <text x="320" y="312" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.5)">High Star</text>
+    <text x="320" y="327" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" font-weight="700" fill="#a78bfa">75pt</text>
+    <rect x="236" y="380" width="152" height="3" rx="1.5" fill="rgba(255,255,255,0.06)"/>
+    <rect class="b-st" x="236" y="380" height="3" rx="1.5" fill="url(#gv)"/>
+  </g>
+
+  <!-- CARD 7: Repositories (teal) -->
+  <g class="c7">
+    <rect x="428" y="232" width="196" height="162" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(45,212,191,0.25)" stroke-width="1"/>
+    <rect x="452" y="232" width="148" height="1.5" rx="1" fill="url(#gt)" opacity="0.7"/>
+    <text x="608" y="248" text-anchor="end" font-family="'Courier New',monospace" font-size="8" font-weight="900" fill="#2dd4bf">A</text>
+    <text x="526" y="248" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#2dd4bf" opacity="0.8" letter-spacing="1">REPOSITORIES</text>
+    <g class="cup7" filter="url(#glow-teal)">
+      <path d="M506 262 Q492 262 492 270 Q492 282 506 282" stroke="#059669" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M546 262 Q560 262 560 270 Q560 282 546 282" stroke="#059669" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M506 256 L546 256 L542 286 L510 286 Z" fill="url(#gt)"/>
+      <rect x="504" y="254" width="44" height="6" rx="3" fill="#2dd4bf" opacity="0.95"/>
+      <path d="M509 259 Q511 257 513 259 L513 282 Q511 283 509 282Z" fill="white" opacity="0.12"/>
+      <rect x="522" y="286" width="8" height="6" rx="1" fill="#059669"/>
+      <rect x="514" y="292" width="24" height="5" rx="2" fill="#2dd4bf"/>
+      <text x="526" y="280" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" font-weight="900" fill="rgba(0,0,0,0.8)">A</text>
+    </g>
+    <text x="526" y="312" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.5)">Hyper Repo Creator</text>
+    <text x="526" y="327" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" font-weight="700" fill="#2dd4bf">37pt</text>
+    <rect x="442" y="380" width="152" height="3" rx="1.5" fill="rgba(255,255,255,0.06)"/>
+    <rect class="b-rp" x="442" y="380" height="3" rx="1.5" fill="url(#gt)"/>
+  </g>
+
+  <!-- CARD 8: Followers (cyan-B) -->
+  <g class="c8">
+    <rect x="634" y="232" width="210" height="162" rx="12" fill="rgba(255,255,255,0.04)" stroke="rgba(0,212,255,0.18)" stroke-width="1"/>
+    <rect x="658" y="232" width="162" height="1.5" rx="1" fill="url(#gc)" opacity="0.4"/>
+    <text x="828" y="248" text-anchor="end" font-family="'Courier New',monospace" font-size="8" font-weight="900" fill="#00d4ff">B</text>
+    <text x="739" y="248" text-anchor="middle" font-family="'Courier New',monospace" font-size="7.5" fill="#00d4ff" opacity="0.8" letter-spacing="1">FOLLOWERS</text>
+    <g class="cup8" filter="url(#glow-cyan)">
+      <path d="M719 262 Q705 262 705 270 Q705 282 719 282" stroke="#0080ff" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M759 262 Q773 262 773 270 Q773 282 759 282" stroke="#0080ff" stroke-width="2" fill="none" stroke-linecap="round"/>
+      <path d="M719 256 L759 256 L755 286 L723 286 Z" fill="url(#gc)"/>
+      <rect x="717" y="254" width="44" height="6" rx="3" fill="#00d4ff" opacity="0.95"/>
+      <path d="M722 259 Q724 257 726 259 L726 282 Q724 283 722 282Z" fill="white" opacity="0.12"/>
+      <rect x="735" y="286" width="8" height="6" rx="1" fill="#0080ff"/>
+      <rect x="727" y="292" width="24" height="5" rx="2" fill="#00d4ff"/>
+      <text x="739" y="280" text-anchor="middle" font-family="'Courier New',monospace" font-size="13" font-weight="900" fill="rgba(0,0,0,0.8)">B</text>
+    </g>
+    <text x="739" y="312" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" fill="rgba(255,255,255,0.5)">Many Friends</text>
+    <text x="739" y="327" text-anchor="middle" font-family="'Courier New',monospace" font-size="9" font-weight="700" fill="#00d4ff">11pt</text>
+    <rect x="648" y="380" width="182" height="3" rx="1.5" fill="rgba(255,255,255,0.06)"/>
+    <rect class="b-fl" x="648" y="380" height="3" rx="1.5" fill="url(#gc)"/>
+  </g>
+
+</svg>
