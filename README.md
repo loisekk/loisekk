@@ -51,7 +51,7 @@
 </p>
 
 ![Tech Stack](./tech-stack.svg)
-
+<img src="https://loisekk.github.io/loisekk/tech-stack.svg">
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                   GITHUB STATS                            -->
