@@ -52,7 +52,7 @@
 
 ![Tech Stack](./Tech%20Stack/tech-stack.gif)
 
-[🛠 View My Tech Stack](https://loisekk.github.io/loisekk/tech-stack/tech-stack.html)
+[🛠 View My Tech Stack](https://loisekk.github.io/loisekk/Tech%20Stack/tech-stack.html)
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                   GITHUB STATS                            -->
