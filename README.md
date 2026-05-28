@@ -50,7 +50,8 @@
   <img src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" width="200" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></img>
 </p>
 
-![Tech Stack](./Tech-stack/tech-stack.gif)
+![Tech Stack](./Tech%20Stack/tech-stack.gif)
+
 [🛠 View My Tech Stack](https://loisekk.github.io/loisekk/tech-stack/tech-stack.html)
 
 <!-- ═══════════════════════════════════════════════════════════ -->
