@@ -44,86 +44,13 @@
 <!--                     TECH STACK                            -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-## 🛠 Language - Tools & Competitive - AI
+
 
 <p align="center">
   <img src="https://media.giphy.com/media/TEnXkcsHrP4YedChhA/giphy.gif" width="200" height="200" frameBorder="0" class="giphy-embed" allowFullScreen></img>
 </p>
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=python,c,fastapi,git,html,css,github,vscode&theme=dark" />
-</p>
-
-### 🤖 Machine Learning & Deep Learning
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=sklearn,tensorflow,pytorch&theme=dark" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Seaborn-3A7DBF?style=for-the-badge&logo=python&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Plotly-239120?style=for-the-badge&logo=plotly&logoColor=white"/>
-  <img src="https://img.shields.io/badge/SciPy-0C4A6E?style=for-the-badge&logo=scipy&logoColor=white"/>
-  <img src="https://img.shields.io/badge/🤗_Transformers-FFD21E?style=for-the-badge&logoColor=black"/>
-  <img src="https://img.shields.io/badge/Streamlit-FF4B4B?style=for-the-badge&logo=streamlit&logoColor=white"/>
-</p>
-
-
-### 🧠 LLM & Agentic AI
-
-<p align="center">
-  <img src="https://img.shields.io/badge/LangChain-00A67E?style=for-the-badge&logo=langchain&logoColor=white"/>
-  <img src="https://img.shields.io/badge/LangGraph-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white"/>
-  <img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-  <img src="https://img.shields.io/badge/Claude-D97757?style=for-the-badge&logo=anthropic&logoColor=white"/>
-  <img src="https://img.shields.io/badge/AI%20Agents-7C3AED?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/RAG-6366F1?style=for-the-badge&logoColor=white"/>
-  <img src="https://img.shields.io/badge/MCP%20Servers-0A66C2?style=for-the-badge&logoColor=white"/>
-</p>
-
-### 🗄️ Databases & Cloud
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=mysql,postgres,supabase,aws,gcp,docker&theme=dark" />
-</p>
-
-### 📊 Data & Analytics
-<p align="center">
-  <img src="https://img.icons8.com/color/48/microsoft-excel-2019.png" title="Excel" width="40" height="40" style="background:#0d1117;border:1.5px solid #30363d;border-radius:5px;padding:8px;box-sizing:border-box;object-fit:contain;"/>
-  <img src="https://img.icons8.com/color/48/power-bi.png" title="Power BI" width="40" height="40" style="background:#0d1117;border:1.5px solid #30363d;border-radius:5px;padding:8px;box-sizing:border-box;object-fit:contain;"/>
-  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg" title="Jupyter" width="40" height="40" style="background:#0d1117;border:1.5px solid #30363d;border-radius:5px;padding:8px;box-sizing:border-box;object-fit:contain;"/>
-  <a href="https://www.kaggle.com/yashbrahmankar95">
-    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kaggle/kaggle-original.svg" title="Kaggle" width="40" height="40" style="background:#0d1117;border:1.5px solid #30363d;border-radius:5px;padding:8px;box-sizing:border-box;object-fit:contain;"/>
-  </a>
-<a href="https://huggingface.co/loisekk">
-  <img 
-    src="https://huggingface.co/front/assets/huggingface_logo-nobg.png" 
-    title="Hugging Face" 
-    width="40" 
-    height="40" 
-    style="
-      background: #0d1117;
-      border: 1.5px solid #30363d;
-      border-radius: 5px;
-      padding: 4px;
-      display: inline-block;
-    "
-  />
-</a>
-
-### 🏆 Competitive Programming
-<p align="center">
-  <a href="https://leetcode.com/u/Yash_Brahmankar1/">
-    <img src="https://img.shields.io/badge/LeetCode-FFA116?style=for-the-badge&logo=leetcode&logoColor=black"/>
-  </a>
-<div align="center">
-<h2 align="center">LeetCode Info</h2>
-<p align="center">
-  <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-50.gif" height="200" width="200" /></a>
-  <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank"><img align="center" src="https://assets.leetcode.com/static_assets/marketing/2024-100.gif" height="200" width="200" /></a>
-</p>
-</div>
+![Tech Stack](./tech-stack.svg)
 
 
 <!-- ═══════════════════════════════════════════════════════════ -->
