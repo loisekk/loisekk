@@ -65,7 +65,7 @@
 &nbsp;&nbsp;
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loisekk&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="160" alt="Top Languages"/>
 
-</div>
+
 
 html<div align="center">
 <h2 align="center">LeetCode Info</h2>
