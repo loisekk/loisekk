@@ -71,6 +71,31 @@
 
 <img src="https://streak-stats.demolab.com/?user=loisekk&theme=tokyonight&hide_border=true&date_format=j%20M%5B%20Y%5D&mode=weekly" height="140" alt="GitHub Streak"/>
 
+<div align="center">
+<h2 align="center">LeetCode Stats</h2>
+
+![LeetCode Stats](https://leetcard.jacoblin.cool/Yash_Brahmankar1?theme=dark&font=Nunito&ext=heatmap)
+
+<p align="center">
+  <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank">
+    <img src="https://assets.leetcode.com/static_assets/marketing/2024-100.gif" height="200" width="200" alt="100 Days Badge"/>
+  </a>
+  <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank">
+    <img src="https://assets.leetcode.com/static_assets/marketing/2025-100.gif" height="200" width="200" alt="100 Days Badge 2026"/>
+  </a>
+</p>
+
+</div>
+
+<p align="center">
+  <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank">
+    <img src="https://assets.leetcode.com/static_assets/marketing/2024-100.gif" height="200" width="200" alt="100 Days Badge"/>
+  </a>
+  <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank">
+    <img src="https://assets.leetcode.com/static_assets/marketing/2025-100.gif" height="200" width="200" alt="100 Days Badge 2026"/>
+  </a>
+</p>
+
 </div>
 
 
