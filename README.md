@@ -69,14 +69,12 @@
 ## 🏆 LeetCode Info
 
 <div align="center">
-<p align="center">
   <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank">
-    <img align="center" src="https://assets.leetcode.com/static_assets/marketing/2025-50.gif" alt="50 Days Badge" height="200" width="200" />
+    <img src="https://assets.leetcode.com/static_assets/others/50_1080_1080.png" alt="50 Days Badge 2026" height="200" width="200" />
   </a>
   <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank">
-    <img align="center" src="https://assets.leetcode.com/static_assets/marketing/2025-100.gif" alt="100 Days Badge" height="200" width="200" />
+    <img src="https://assets.leetcode.com/static_assets/others/100_1080_1080.png" alt="100 Days Badge 2026" height="200" width="200" />
   </a>
-</p>
 </div>
 
 
