@@ -68,11 +68,9 @@
 
 ## 🏆 LeetCode Info
 
+
 <div align="center">
-  <img src="https://leetcard.jacoblin.cool/Yash_Brahmankar1?theme=dark&font=Nunito&ext=heatmap" alt="LeetCode Stats"/>
-  
-  <br/><br/>
-  
+<p align="center">  
   <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank">
     <img src="https://assets.leetcode.com/static_assets/others/50_1080_1080.png" alt="50 Days Badge 2026" height="200" width="200" />
   </a>
