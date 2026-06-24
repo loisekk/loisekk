@@ -67,18 +67,17 @@
 
 </div>
 
-<div align="center">
-<h2 align="center">LeetCode Stats</h2>
+html<div align="center">
+<h2 align="center">LeetCode Info</h2>
 
-![LeetCode Stats](https://leetcard.jacoblin.cool/Yash_Brahmankar1?theme=dark&font=Nunito&ext=heatmap)
-
-<br/>
-
-<img src="https://assets.leetcode.com/static_assets/marketing/2025-50.gif" height="150" width="150" alt="50 Days Badge"/>
-
-<br/>
-
-<img src="https://assets.leetcode.com/static_assets/marketing/2025-100.gif" height="150" width="150" alt="100 Days Badge"/>
+<p align="center">
+  <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank">
+    <img align="center" src="https://assets.leetcode.com/static_assets/marketing/2025-50.gif" alt="50 Days Badge" height="200" width="200" />
+  </a>
+  <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank">
+    <img align="center" src="https://assets.leetcode.com/static_assets/marketing/2025-100.gif" alt="100 Days Badge" height="200" width="200" />
+  </a>
+</p>
 
 </div>
 
