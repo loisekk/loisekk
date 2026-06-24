@@ -59,17 +59,16 @@
 <!-- ═══════════════════════════════════════════════════════════ -->
 
 ## 📊 GitHub Stats
-<div align="center">
 
+<div align="center">
 <img src="https://github-readme-stats.vercel.app/api?username=loisekk&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true&hide_border=true&rank_icon=github&hide=contribs" height="160" alt="GitHub Stats"/>
 &nbsp;&nbsp;
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=loisekk&layout=compact&theme=tokyonight&hide_border=true&langs_count=6" height="160" alt="Top Languages"/>
+</div>
 
+## 🏆 LeetCode Info
 
-
-html<div align="center">
-<h2 align="center">LeetCode Info</h2>
-
+<div align="center">
 <p align="center">
   <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank">
     <img align="center" src="https://assets.leetcode.com/static_assets/marketing/2025-50.gif" alt="50 Days Badge" height="200" width="200" />
@@ -78,7 +77,6 @@ html<div align="center">
     <img align="center" src="https://assets.leetcode.com/static_assets/marketing/2025-100.gif" alt="100 Days Badge" height="200" width="200" />
   </a>
 </p>
-
 </div>
 
 
