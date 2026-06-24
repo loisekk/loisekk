@@ -74,25 +74,11 @@
 
 <br/>
 
-<a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank">
-  <img src="YOUR_50_DAY_BADGE_URL" height="150" width="150" alt="50 Days Badge"/>
-</a>
+<img src="https://assets.leetcode.com/static_assets/marketing/2025-50.gif" height="150" width="150" alt="50 Days Badge"/>
 
 <br/>
 
-<a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank">
-  <img src="YOUR_100_DAY_BADGE_URL" height="150" width="150" alt="100 Days Badge"/>
-</a>
-
-</div>
-<p align="center">
-  <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank">
-    <img src="https://assets.leetcode.com/static_assets/marketing/2024-100.gif" height="200" width="200" alt="100 Days Badge"/>
-  </a>
-  <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank">
-    <img src="https://assets.leetcode.com/static_assets/marketing/2025-100.gif" height="200" width="200" alt="100 Days Badge 2026"/>
-  </a>
-</p>
+<img src="https://assets.leetcode.com/static_assets/marketing/2025-100.gif" height="150" width="150" alt="100 Days Badge"/>
 
 </div>
 
