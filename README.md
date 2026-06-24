@@ -69,11 +69,21 @@
 ## 🏆 LeetCode Info
 
 <div align="center">
+  <style>
+    .badge-spin {
+      animation: spin 4s linear infinite;
+      display: inline-block;
+    }
+    @keyframes spin {
+      from { transform: rotateY(0deg); }
+      to { transform: rotateY(360deg); }
+    }
+  </style>
   <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank">
-    <img src="https://assets.leetcode.com/static_assets/others/50_1080_1080.png" alt="50 Days Badge 2026" height="200" width="200" />
+    <img class="badge-spin" src="https://assets.leetcode.com/static_assets/others/50_1080_1080.png" alt="50 Days Badge 2026" height="200" width="200" />
   </a>
   <a href="https://leetcode.com/u/Yash_Brahmankar1/" target="_blank">
-    <img src="https://assets.leetcode.com/static_assets/others/100_1080_1080.png" alt="100 Days Badge 2026" height="200" width="200" />
+    <img class="badge-spin" src="https://assets.leetcode.com/static_assets/others/100_1080_1080.png" alt="100 Days Badge 2026" height="200" width="200" />
   </a>
 </div>
 
