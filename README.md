@@ -174,8 +174,8 @@
 | 📊 Data Science & Analytics | ✅ Active |
 | 🔗 LangGraph & Multi-Agent Systems | 🔄 In Progress |
 | ☁️ Cloud & MLOps | 🔄 In Progress |
-| 🌐 API Development (FastAPI) | 🔲 Upcoming |
-| 🐳 Docker & Deployment | 🔲 Upcoming |
+| 🌐 API Development (FastAPI) | ✅ Active |
+| 🐳 Docker & Deployment | ✅ Active |
 
 ---
 
