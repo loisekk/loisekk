@@ -104,20 +104,6 @@
 ---
 
 <!-- ═══════════════════════════════════════════════════════════ -->
-<!--               CONTRIBUTION ACTIVITY                       -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
-## 📈 Engineering Momentum
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=loisekk&bg_color=0d1117&color=a78bfa&line=7c3aed&point=ffffff&area=true&hide_border=true&custom_title=Yash%20Brahmankar%20-%20Consistency%20%7C%20Continuous%20Improvement%20%7C%20Code%20Velocity" />
-</p>
-
----
-
-
-
-<!-- ═══════════════════════════════════════════════════════════ -->
 <!--                  GITHUB TROPHIES                          -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
