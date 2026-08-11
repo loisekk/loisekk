@@ -158,7 +158,7 @@
 | 🤖 Machine Learning & Deep Learning | ✅ Active |
 | 🧠 LLM Engineering & Agentic AI | ✅ Active |
 | 📊 Data Science & Analytics | ✅ Active |
-| 🔗 LangGraph & Multi-Agent Systems | 🔄 In Progress |
+| 🔗 LangGraph & Multi-Agent Systems | ✅ Active |
 | ☁️ Cloud & MLOps | 🔄 In Progress |
 | 🌐 API Development (FastAPI) | ✅ Active |
 | 🐳 Docker & Deployment | ✅ Active |
