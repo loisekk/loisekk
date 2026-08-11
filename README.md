@@ -159,7 +159,7 @@
 | 🧠 LLM Engineering & Agentic AI | ✅ Active |
 | 📊 Data Science & Analytics | ✅ Active |
 | 🔗 LangGraph & Multi-Agent Systems | ✅ Active |
-| ☁️ Cloud & MLOps | 🔄 In Progress |
+| ☁️ Cloud & MLOps | ✅ Active |
 | 🌐 API Development (FastAPI) | ✅ Active |
 | 🐳 Docker & Deployment | ✅ Active |
 
