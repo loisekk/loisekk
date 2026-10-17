@@ -185,12 +185,8 @@
 [![LeetCode](https://img.shields.io/badge/LeetCode-Active-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com)
 
 <br/>
-
 **⚡ Building Intelligent AI Systems Today — For a Smarter Tomorrow ⚡**
-
 </div>
-
-
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--                    FOOTER                                 -->
