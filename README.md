@@ -138,7 +138,7 @@
 </p>
 
 <p align="center">
-  <sub>🐋 Grows with my yearly contributions · regenerated daily by GitHub Actions · resets Jan 1 · <a href="https://github.com/PramudithaN/git-tulkun">git-tulkun</a> (unofficial fan project)</sub>
+  <sub>🐋 Grows with my yearly contributions · regenerated daily by GitHub Actions </sub>
 </p>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
