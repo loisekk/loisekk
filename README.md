@@ -54,6 +54,18 @@
   <a href="https://loisekk.github.io/loisekk/Tech%20Stack/tech-stack.html">🏎️ View My Tech Stack 🤖</a>
 </p>
 
+
+## 🐋 Contribution Tulkun
+
+<p align="center">
+  <a href="https://github.com/PramudithaN/git-tulkun">
+    <img src="https://raw.githubusercontent.com/loisekk/loisekk/output/tulkun/tulkun.gif" width="640" alt="loisekk's git-tulkun: a pixel-art whale that grows with yearly contributions" />
+  </a>
+</p>
+
+<p align="center">
+  <sub>🐋 Grows with my yearly contributions · regenerated daily by GitHub Actions </sub>
+</p>
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--        ENGINEERING TELEMETRY  (replaces GitHub Stats)     -->
 <!-- ═══════════════════════════════════════════════════════════ -->
@@ -129,17 +141,7 @@
 <!--     ARCADE CONTRIBUTION GRAPH  (replaces Snake)           -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-## 🐋 Contribution Tulkun
 
-<p align="center">
-  <a href="https://github.com/PramudithaN/git-tulkun">
-    <img src="https://raw.githubusercontent.com/loisekk/loisekk/output/tulkun/tulkun.gif" width="640" alt="loisekk's git-tulkun: a pixel-art whale that grows with yearly contributions" />
-  </a>
-</p>
-
-<p align="center">
-  <sub>🐋 Grows with my yearly contributions · regenerated daily by GitHub Actions </sub>
-</p>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
 <!--   PRODUCTION ENGINEERING FOCUS (interactive capability grid) -->
