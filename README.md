@@ -122,13 +122,7 @@
 <!--               PIXEL NAME ART (GREEN BLOCKS)               -->
 <!-- ═══════════════════════════════════════════════════════════ -->
 
-<p align="center">
-  <img src="https://raw.githubusercontent.com/loisekk/loisekk/output/output/pixel-name.svg" alt="YASH B. — Pixel Name Art" width="100%"/>
-</p>
-
-<p align="center">
-  <sub>🟩 Name rendered in GitHub contribution-style green pixel blocks</sub>
-</p>
+<p align="center">  <img src="https://raw.githubusercontent.com/loisekk/loisekk/output/output/pixel-name.svg" alt="YASH B. — Pixel Name Art" width="100%"/></p> <p align="center">  <sub>🟩 Name rendered in GitHub contribution-style green pixel blocks</sub></p> 
 
 
 <!-- ═══════════════════════════════════════════════════════════ -->
