@@ -316,7 +316,6 @@
 [![LeetCode](https://img.shields.io/badge/LeetCode-Active-FFA116?style=for-the-badge&logo=leetcode&logoColor=black)](https://leetcode.com)
 
 <br/>
-<b>⚡ Building Intelligent AI Systems Today — For a Smarter Tomorrow ⚡</b>
 </div>
 
 <!-- ═══════════════════════════════════════════════════════════ -->
@@ -329,7 +328,6 @@
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-samurai--portfolio--xi.vercel.app-7C3AED?style=for-the-badge&logo=vercel&logoColor=white)](https://samurai-portfolio-xi.vercel.app/)
 
-<sub>Projects, live demos, and interactive 3D work — all in one place.</sub>
 
 <br/>
 
