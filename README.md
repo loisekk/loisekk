@@ -307,7 +307,6 @@
 
 <div align="center">
 
-📍 Bhopal, Madhya Pradesh, India &nbsp;|&nbsp; 🎓 AIML @ OIST &nbsp;|&nbsp; 📧 yashbrahmankar95@gmail.com
 
 <br/>
 
