@@ -66,19 +66,6 @@
 <p align="center">
   <sub>🐋 Grows with my yearly contributions · regenerated daily by GitHub Actions </sub>
 </p>
-<!-- ═══════════════════════════════════════════════════════════ -->
-<!--        ENGINEERING TELEMETRY  (replaces GitHub Stats)     -->
-<!-- ═══════════════════════════════════════════════════════════ -->
-
-## 📡 Engineering Telemetry
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com/?user=loisekk&theme=tokyonight&hide_border=true&border_radius=12" height="170" alt="Contribution Streak"/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=loisekk&bg_color=0d1117&color=a78bfa&line=7c3aed&point=ffffff&area=true&area_color=7c3aed&hide_border=true&custom_title=Contribution%20Telemetry%20%E2%80%94%20Last%2031%20Days" width="100%" alt="Contribution Activity Graph"/>
-
-</div>
 
 ## 🏆 LeetCode Info
 
